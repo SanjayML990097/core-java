@@ -1,157 +1,242 @@
-class SwiggyRunner {
+class SwiggyRunner
+{
+	public static void main(String [] args)
+	{
+		String itemName = "Idli";
+		int quantity = 2;
+		double priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-    public static void main(String[] args) {
+		itemName = "Dosa"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        String foodName = "burger";  // declared variable
+		itemName = "Masala Dosa"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food1 = Swiggy.search("burger");
-        System.out.println("The price of food " + foodName + " is " + food1);
+		itemName = "Vada"; quantity = 3;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food2 = Swiggy.search("pizza");
-        System.out.println(food2);
+		itemName = "Pongal"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food3 = Swiggy.search("pasta");
-        System.out.println(food3);
+		itemName = "Upma"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food4 = Swiggy.search("sandwich");
-        System.out.println(food4);
+		itemName = "Poori"; quantity = 3;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food5 = Swiggy.search("fries");
-        System.out.println(food5);
+		itemName = "Chapati"; quantity = 3;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food6 = Swiggy.search("noodles");
-        System.out.println(food6);
+		itemName = "Paratha"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food7 = Swiggy.search("friedRice");
-        System.out.println(food7);
+		itemName = "Veg Biryani"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food8 = Swiggy.search("biryani");
-        System.out.println(food8);
+		itemName = "Chicken Biryani"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food9 = Swiggy.search("shawarma");
-        System.out.println(food9);
+		itemName = "Mutton Biryani"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food10 = Swiggy.search("momos");
-        System.out.println(food10);
+		itemName = "Fried Rice"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food11 = Swiggy.search("paneerTikka");
-        System.out.println(food11);
+		itemName = "Noodles"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food12 = Swiggy.search("vegRoll");
-        System.out.println(food12);
+		itemName = "Manchurian"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food13 = Swiggy.search("chickenRoll");
-        System.out.println(food13);
+		itemName = "Paneer Butter Masala"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food14 = Swiggy.search("dosa");
-        System.out.println(food14);
+		itemName = "Kadai Paneer"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food15 = Swiggy.search("masalaDosa");
-        System.out.println(food15);
+		itemName = "Dal Fry"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food16 = Swiggy.search("idli");
-        System.out.println(food16);
+		itemName = "Jeera Rice"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food17 = Swiggy.search("vada");
-        System.out.println(food17);
+		itemName = "Curd Rice"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food18 = Swiggy.search("poha");
-        System.out.println(food18);
+		itemName = "Sambar Rice"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food19 = Swiggy.search("upma");
-        System.out.println(food19);
+		itemName = "Rasam Rice"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food20 = Swiggy.search("pavBhaji");
-        System.out.println(food20);
+		itemName = "Fish Curry"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food21 = Swiggy.search("choleBhature");
-        System.out.println(food21);
+		itemName = "Chicken Curry"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food22 = Swiggy.search("rajmaRice");
-        System.out.println(food22);
+		itemName = "Butter Chicken"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food23 = Swiggy.search("dalRice");
-        System.out.println(food23);
+		itemName = "Tandoori Chicken"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food24 = Swiggy.search("vegThali");
-        System.out.println(food24);
+		itemName = "Chicken 65"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food25 = Swiggy.search("nonVegThali");
-        System.out.println(food25);
+		itemName = "Gobi 65"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food26 = Swiggy.search("chickenCurry");
-        System.out.println(food26);
+		itemName = "Spring Roll"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food27 = Swiggy.search("butterChicken");
-        System.out.println(food27);
+		itemName = "Veg Roll"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food28 = Swiggy.search("tandooriChicken");
-        System.out.println(food28);
+		itemName = "Chicken Roll"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food29 = Swiggy.search("fishFry");
-        System.out.println(food29);
+		itemName = "Burger Meal"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food30 = Swiggy.search("eggCurry");
-        System.out.println(food30);
+		itemName = "Pizza Combo"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food31 = Swiggy.search("omelette");
-        System.out.println(food31);
+		itemName = "French Fries"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food32 = Swiggy.search("boiledEgg");
-        System.out.println(food32);
+		itemName = "Garlic Bread"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food33 = Swiggy.search("chickenBurger");
-        System.out.println(food33);
+		itemName = "Pasta White Sauce"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food34 = Swiggy.search("vegBurger");
-        System.out.println(food34);
+		itemName = "Pasta Red Sauce"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food35 = Swiggy.search("doubleBurger");
-        System.out.println(food35);
+		itemName = "Momos Veg"; quantity = 3;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food36 = Swiggy.search("cheesePizza");
-        System.out.println(food36);
+		itemName = "Momos Chicken"; quantity = 3;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food37 = Swiggy.search("vegPizza");
-        System.out.println(food37);
+		itemName = "Hot Dog"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food38 = Swiggy.search("chickenPizza");
-        System.out.println(food38);
+		itemName = "Sandwich Veg"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food39 = Swiggy.search("coldCoffee");
-        System.out.println(food39);
+		itemName = "Sandwich Chicken"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food40 = Swiggy.search("milkshake");
-        System.out.println(food40);
+		itemName = "Milk Tea"; quantity = 3;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food41 = Swiggy.search("tea");
-        System.out.println(food41);
+		itemName = "Black Tea"; quantity = 3;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food42 = Swiggy.search("coffee");
-        System.out.println(food42);
+		itemName = "Coffee Hot"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food43 = Swiggy.search("greenTea");
-        System.out.println(food43);
+		itemName = "Cold Coffee"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food44 = Swiggy.search("juice");
-        System.out.println(food44);
+		itemName = "Lassi Sweet"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food45 = Swiggy.search("orangeJuice");
-        System.out.println(food45);
+		itemName = "Lassi Salt"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food46 = Swiggy.search("appleJuice");
-        System.out.println(food46);
+		itemName = "Falooda"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food47 = Swiggy.search("iceCream");
-        System.out.println(food47);
+		itemName = "Brownie"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food48 = Swiggy.search("brownie");
-        System.out.println(food48);
+		itemName = "Cupcake"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food49 = Swiggy.search("cake");
-        System.out.println(food49);
+		itemName = "Donut"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
 
-        double food50 = Swiggy.search("donut");
-        System.out.println(food50);
-    }
+		itemName = "Waffle"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
+
+		itemName = "Pancake"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
+
+		itemName = "Ice Cream Sundae"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
+
+		itemName = "Kulfi"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
+
+		itemName = "Fruit Salad"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
+
+		itemName = "Chicken Wings"; quantity = 1;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
+
+		itemName = "Grilled Sandwich"; quantity = 2;
+		priceWithQuantity = Swiggy.search(itemName,quantity);
+		System.out.println("The price and quantity of "+ itemName +" is : "+ priceWithQuantity);
+	}
 }

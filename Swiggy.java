@@ -1,109 +1,93 @@
-class Swiggy {
+class Swiggy
+{
+	public static double search(String itemName)
+	{
+		double price = 0.0;
 
-    public static double search(String foodName) {
-        double price = 0.0;
+		if(itemName == "Idli") return 30.0;
+		else if(itemName == "Dosa") return 50.0;
+		else if(itemName == "Masala Dosa") return 70.0;
+		else if(itemName == "Vada") return 25.0;
+		else if(itemName == "Pongal") return 60.0;
+		else if(itemName == "Upma") return 40.0;
+		else if(itemName == "Poori") return 50.0;
+		else if(itemName == "Chapati") return 40.0;
+		else if(itemName == "Paratha") return 60.0;
+		else if(itemName == "Veg Biryani") return 120.0;
 
-        if (foodName == "burger") 
+		else if(itemName == "Chicken Biryani") return 180.0;
+		else if(itemName == "Mutton Biryani") return 220.0;
+		else if(itemName == "Fried Rice") return 100.0;
+		else if(itemName == "Noodles") return 90.0;
+		else if(itemName == "Manchurian") return 110.0;
+		else if(itemName == "Paneer Butter Masala") return 150.0;
+		else if(itemName == "Kadai Paneer") return 160.0;
+		else if(itemName == "Dal Fry") return 90.0;
+		else if(itemName == "Jeera Rice") return 80.0;
+		else if(itemName == "Curd Rice") return 60.0;
+
+		else if(itemName == "Sambar Rice") return 70.0;
+		else if(itemName == "Rasam Rice") return 65.0;
+		else if(itemName == "Fish Curry") return 170.0;
+		else if(itemName == "Chicken Curry") return 160.0;
+		else if(itemName == "Butter Chicken") return 190.0;
+		else if(itemName == "Tandoori Chicken") return 200.0;
+		else if(itemName == "Chicken 65") return 140.0;
+		else if(itemName == "Gobi 65") return 110.0;
+		else if(itemName == "Spring Roll") return 90.0;
+		else if(itemName == "Veg Roll") return 80.0;
+
+		else if(itemName == "Chicken Roll") return 100.0;
+		else if(itemName == "Burger Meal") return 150.0;
+		else if(itemName == "Pizza Combo") return 250.0;
+		else if(itemName == "French Fries") return 90.0;
+		else if(itemName == "Garlic Bread") return 120.0;
+		else if(itemName == "Pasta White Sauce") return 180.0;
+		else if(itemName == "Pasta Red Sauce") return 170.0;
+		else if(itemName == "Momos Veg") return 80.0;
+		else if(itemName == "Momos Chicken") return 100.0;
+		else if(itemName == "Hot Dog") return 120.0;
+
+		else if(itemName == "Sandwich Veg") return 90.0;
+		else if(itemName == "Sandwich Chicken") return 120.0;
+		else if(itemName == "Milk Tea") return 20.0;
+		else if(itemName == "Black Tea") return 15.0;
+		else if(itemName == "Coffee Hot") return 30.0;
+		else if(itemName == "Cold Coffee") return 80.0;
+		else if(itemName == "Lassi Sweet") return 60.0;
+		else if(itemName == "Lassi Salt") return 50.0;
+		else if(itemName == "Falooda") return 90.0;
+		else if(itemName == "Brownie") return 100.0;
+
+		else if(itemName == "Cupcake") return 70.0;
+		else if(itemName == "Donut") return 80.0;
+		else if(itemName == "Waffle") return 120.0;
+		else if(itemName == "Pancake") return 110.0;
+		else if(itemName == "Ice Cream Sundae") return 150.0;
+		else if(itemName == "Kulfi") return 60.0;
+		else if(itemName == "Fruit Salad") return 90.0;
+		else if(itemName == "Chicken Wings") return 160.0;
+		else if(itemName == "Grilled Sandwich") return 130.0;
+
+		else
 		{
-			price = 99.0;
-			return price;
-		}else if (foodName == "pizza") { 
-			price = 120.0;
-			return price;
-		}else if (foodName == "pasta") {
-			price = 150.0;
-			return price;
-		}else if (foodName == "sandwich") {
-				price = 80.0;
-				return price; 
-				}
-        else if (foodName == "fries") {
-			price = 70.0;
-			return price; 
-			}
-        else if (foodName == "noodles") 
-		{ 
-			price = 110.0;
-			return price; 
+			System.out.println(itemName + " not found");
 		}
-        else if (foodName == "friedRice") {
-			price = 130.0; 
-			return price; 
-			}
-        else if (foodName == "biryani") { 
-		price = 180.0;
-		return price; 
-		}
-        else if (foodName == "shawarma") { 
-		price = 140.0;
+
 		return price;
+	}
+
+	public static double search(String itemName, int quantity)
+	{
+		double price = search(itemName);
+		if(price > 0)
+		{
+			return price * quantity;
 		}
-        else if (foodName == "momos") {
-				price = 90.0;
-				return price; 
-				}
-        else if (foodName == "paneerTikka") {
-			price = 170.0;
-			return price; 
-			}
-        else if (foodName == "vegRoll") {
-			price = 85.0;
-			return price; 
-			}
-        else if (foodName == "chickenRoll") {
-			price = 120.0;
-			return price; 
-			}
-        else if (foodName == "dosa") { 
-			price = 60.0; 
-			return price; 
-			}
-        else if (foodName == "masalaDosa") { price = 80.0; return price; }
-        else if (foodName == "idli") { price = 40.0; return price; }
-        else if (foodName == "vada") { price = 35.0; return price; }
-        else if (foodName == "poha") { price = 45.0; return price; }
-        else if (foodName == "upma") { price = 50.0; return price; }
-        else if (foodName == "pavBhaji") { price = 100.0; return price; }
-        else if (foodName == "choleBhature") { price = 120.0; return price; }
-        else if (foodName == "rajmaRice") { price = 130.0; return price; }
-        else if (foodName == "dalRice") { price = 110.0; return price; }
-        else if (foodName == "vegThali") { price = 200.0; return price; }
-        else if (foodName == "nonVegThali") { price = 250.0; return price; }
-        else if (foodName == "chickenCurry") { price = 220.0; return price; }
-        else if (foodName == "butterChicken") { price = 260.0; return price; }
-        else if (foodName == "tandooriChicken") { price = 280.0; return price; }
-        else if (foodName == "fishFry") { price = 240.0; return price; }
-        else if (foodName == "eggCurry") { price = 150.0; return price; }
-        else if (foodName == "omelette") { price = 50.0; return price; }
-        else if (foodName == "boiledEgg") { price = 30.0; return price; }
-        else if (foodName == "chickenBurger") { price = 140.0; return price; }
-        else if (foodName == "vegBurger") { price = 100.0; return price; }
-        else if (foodName == "doubleBurger") { price = 180.0; return price; }
-        else if (foodName == "cheesePizza") { price = 220.0; return price; }
-        else if (foodName == "vegPizza") { price = 200.0; return price; }
-        else if (foodName == "chickenPizza") { price = 240.0; return price; }
-        else if (foodName == "coldCoffee") { price = 90.0; return price; }
-        else if (foodName == "milkshake") { price = 110.0; return price; }
-        else if (foodName == "tea") { price = 20.0; return price; }
-        else if (foodName == "coffee") { price = 30.0; return price; }
-        else if (foodName == "greenTea") { price = 40.0; return price; }
-        else if (foodName == "juice") { price = 70.0; return price; }
-        else if (foodName == "orangeJuice") { price = 80.0; return price; }
-        else if (foodName == "appleJuice") { price = 90.0; return price; }
-        else if (foodName == "iceCream") { price = 60.0; return price; }
-        else if (foodName == "brownie") { price = 120.0; return price; }
-        else if (foodName == "cake") { price = 150.0; return price; }
-        else if (foodName == "donut") { price = 70.0; return price; }
-
-        else {
-            System.out.println("Food not found");
-        }
-
-        return 0.0;
-    }
-
-    public static double search(String foodName, double quantity) {
-        double price = search(foodName);
-        return price * quantity;
-    }
+		else
+		{
+			System.out.println(itemName + " not found");
+		}
+		return 0.0;
+	}
 }
