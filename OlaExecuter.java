@@ -1,0 +1,43 @@
+class OlaExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+Ola.createAccount("arjun","Naidu","male","arjun@ola",9660000001l);
+Ola.createAccount("divya","Iyer","female","divya@ola",9770000002l);
+Ola.createAccount("naveen","Das","male","naveen@ola",9880000003l);
+Ola.createAccount("harini","Shetty","female","harini@ola",9990000004l);
+Ola.createAccount("vikas","Kumar","male","vikas@ola",9000000005l);
+Ola.createAccount("pooja","Reddy","female","pooja@ola",9010000006l);
+Ola.createAccount("rahul","Sharma","male","rahul@ola",9020000007l);
+Ola.createAccount("sneha","Menon","female","sneha@ola",9030000008l);
+Ola.createAccount("karthik","Rao","male","karthik@ola",9040000009l);
+Ola.createAccount("ananya","Singh","female","ananya@ola",9050000010l);
+Ola.createAccount("manoj","Pillai","male","manoj@ola",9060000011l);
+Ola.createAccount("megha","Kapoor","female","megha@ola",9070000012l);
+Ola.createAccount("sachin","Patil","male","sachin@ola",9080000013l);
+Ola.createAccount("lakshmi","Nair","female","lakshmi@ola",9090000014l);
+Ola.createAccount("deepak","Joshi","male","deepak@ola",9100000015l);
+Ola.createAccount("anjali","Desai","female","anjali@ola",9110000016l);
+Ola.createAccount("ramesh","Gupta","male","ramesh@ola",9120000017l);
+Ola.createAccount("neha","Verma","female","neha@ola",9130000018l);
+Ola.createAccount("vivek","Chopra","male","vivek@ola",9140000019l);
+Ola.createAccount("swathi","Reddy","female","swathi@ola",9150000020l);
+Ola.createAccount("tarun","Naidu","male","tarun@ola",9160000021l);
+Ola.createAccount("bhavana","Shetty","female","bhavana@ola",9170000022l);
+Ola.createAccount("harsha","Kulkarni","male","harsha@ola",9180000023l);
+Ola.createAccount("isha","Gupta","female","isha@ola",9190000024l);
+Ola.createAccount("gokul","Krishna","male","gokul@ola",9200000025l);
+Ola.createAccount("poornima","Patel","female","poornima@ola",9210000026l);
+Ola.createAccount("amit","Sharma","male","amit@ola",9220000027l);
+Ola.createAccount("snehal","Joshi","female","snehal@ola",9230000028l);
+Ola.createAccount("arav","Jain","male","arav@ola",9240000029l);
+Ola.createAccount("kiran","Patil","female","kiran@ola",9250000030l);
+Ola.createAccount("rahul","Chopra","male","rahul@ola",9260000031l);
+Ola.createAccount("priya","Menon","female","priya@ola",9270000032l);
+Ola.createAccount("manish","Tiwari","male","manish@ola",9280000033l);
+Ola.createAccount("anita","Rao","female","anita@ola",9290000034l);
+Ola.createAccount("suresh","Kumar","male","suresh@ola",9300000035l);
+Ola.createAccount("kavya","Iyer","female","kavya@ola",9310000036l);
+Ola.createAccount("rohit","Yadav","male","rohit@ola",9320000037l);
+	}
+	}

@@ -1,0 +1,43 @@
+class LinkedInExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+LinkedIn.createAccount("tarun","Chopra","male","tarun@linkedin",9113334445l);
+LinkedIn.createAccount("lakshmi","Menon","female","lakshmi@linkedin",9224445556l);
+LinkedIn.createAccount("kiran","Mishra","male","kiran@linkedin",9335556667l);
+LinkedIn.createAccount("keerthi","Bhat","female","keerthi@linkedin",9446667778l);
+LinkedIn.createAccount("varun","Malhotra","male","varun@linkedin",9557778889l);
+LinkedIn.createAccount("pooja","Sharma","female","pooja@linkedin",9668889990l);
+LinkedIn.createAccount("rahul","Verma","male","rahul@linkedin",9779990001l);
+LinkedIn.createAccount("divya","Iyer","female","divya@linkedin",9880001112l);
+LinkedIn.createAccount("arjun","Reddy","male","arjun@linkedin",9991112223l);
+LinkedIn.createAccount("sneha","Menon","female","sneha@linkedin",9002223334l);
+LinkedIn.createAccount("karthik","Rao","male","karthik@linkedin",9013334445l);
+LinkedIn.createAccount("megha","Kapoor","female","megha@linkedin",9024445556l);
+LinkedIn.createAccount("sachin","Patil","male","sachin@linkedin",9035556667l);
+LinkedIn.createAccount("ananya","Roy","female","ananya@linkedin",9046667778l);
+LinkedIn.createAccount("deepak","Joshi","male","deepak@linkedin",9057778889l);
+LinkedIn.createAccount("anjali","Desai","female","anjali@linkedin",9068889990l);
+LinkedIn.createAccount("rohit","Singh","male","rohit@linkedin",9079990001l);
+LinkedIn.createAccount("bhavana","Shetty","female","bhavana@linkedin",9080001112l);
+LinkedIn.createAccount("vivek","Chopra","male","vivek@linkedin",9091112223l);
+LinkedIn.createAccount("neha","Gupta","female","neha@linkedin",9102223334l);
+LinkedIn.createAccount("harsha","Kulkarni","male","harsha@linkedin",9113334446l);
+LinkedIn.createAccount("isha","Patel","female","isha@linkedin",9224445557l);
+LinkedIn.createAccount("amit","Sharma","male","amit@linkedin",9335556668l);
+LinkedIn.createAccount("swathi","Reddy","female","swathi@linkedin",9446667779l);
+LinkedIn.createAccount("karan","Malhotra","male","karan@linkedin",9557778890l);
+LinkedIn.createAccount("poornima","Naidu","female","poornima@linkedin",9668889991l);
+LinkedIn.createAccount("naveen","Das","male","naveen@linkedin",9779990002l);
+LinkedIn.createAccount("kiran","Patil","female","kiran@linkedin2",9880001113l);
+LinkedIn.createAccount("rahul","Chopra","male","rahul@linkedin2",9991112224l);
+LinkedIn.createAccount("anita","Rao","female","anita@linkedin",9002223335l);
+LinkedIn.createAccount("manish","Tiwari","male","manish@linkedin",9013334446l);
+LinkedIn.createAccount("suresh","Kumar","male","suresh@linkedin",9024445557l);
+LinkedIn.createAccount("snehal","Joshi","female","snehal@linkedin",9035556668l);
+LinkedIn.createAccount("arav","Jain","male","arav@linkedin",9046667779l);
+LinkedIn.createAccount("ramesh","Gupta","male","ramesh@linkedin",9057778891l);
+LinkedIn.createAccount("kavitha","Iyer","female","kavitha@linkedin",9068889992l);
+LinkedIn.createAccount("gokul","Krishna","male","gokul@linkedin",9079990003l);
+	}
+	}

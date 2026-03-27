@@ -1,0 +1,43 @@
+class SpotifyExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+Spotify.createAccount("rohit","Malhotra","male","rohit@spotify",9011110001l);
+Spotify.createAccount("ananya","Gupta","female","ananya@spotify",9022220002l);
+Spotify.createAccount("sachin","Patel","male","sachin@spotify",9033330003l);
+Spotify.createAccount("megha","Kapoor","female","megha@spotify",9044440004l);
+Spotify.createAccount("tarun","Reddy","male","tarun@spotify",9055550005l);
+Spotify.createAccount("pooja","Sharma","female","pooja@spotify",9066660006l);
+Spotify.createAccount("rahul","Verma","male","rahul@spotify",9077770007l);
+Spotify.createAccount("divya","Iyer","female","divya@spotify",9088880008l);
+Spotify.createAccount("vikram","Singh","male","vikram@spotify",9099990009l);
+Spotify.createAccount("sneha","Menon","female","sneha@spotify",9000000010l);
+Spotify.createAccount("arjun","Naidu","male","arjun@spotify",9011110011l);
+Spotify.createAccount("lakshmi","Nair","female","lakshmi@spotify",9022220012l);
+Spotify.createAccount("deepak","Joshi","male","deepak@spotify",9033330013l);
+Spotify.createAccount("kavya","Rao","female","kavya@spotify",9044440014l);
+Spotify.createAccount("manoj","Pillai","male","manoj@spotify",9055550015l);
+Spotify.createAccount("anjali","Desai","female","anjali@spotify",9066660016l);
+Spotify.createAccount("naveen","Yadav","male","naveen@spotify",9077770017l);
+Spotify.createAccount("poornima","Shetty","female","poornima@spotify",9088880018l);
+Spotify.createAccount("vivek","Chopra","male","vivek@spotify",9099990019l);
+Spotify.createAccount("neha","Kapoor","female","neha@spotify",9000000020l);
+Spotify.createAccount("suresh","Kumar","male","suresh@spotify",9011110021l);
+Spotify.createAccount("isha","Gupta","female","isha@spotify",9022220022l);
+Spotify.createAccount("harsha","Kulkarni","male","harsha@spotify",9033330023l);
+Spotify.createAccount("bhavana","Naidu","female","bhavana@spotify",9044440024l);
+Spotify.createAccount("gokul","Krishna","male","gokul@spotify",9055550025l);
+Spotify.createAccount("swathi","Reddy","female","swathi@spotify",9066660026l);
+Spotify.createAccount("karan","Malhotra","male","karan@spotify",9077770027l);
+Spotify.createAccount("priya","Menon","female","priya@spotify",9088880028l);
+Spotify.createAccount("amit","Sharma","male","amit@spotify",9099990029l);
+Spotify.createAccount("kiran","Patil","female","kiran@spotify",9000000030l);
+Spotify.createAccount("rahul","Chopra","male","rahul@spotify",9011110031l);
+Spotify.createAccount("anita","Rao","female","anita@spotify",9022220032l);
+Spotify.createAccount("manish","Tiwari","male","manish@spotify",9033330033l);
+Spotify.createAccount("snehal","Joshi","female","snehal@spotify",9044440034l);
+Spotify.createAccount("arav","Jain","male","arav@spotify",9055550035l);
+Spotify.createAccount("ramesh","Gupta","male","ramesh@spotify",9066660036l);
+Spotify.createAccount("kavitha","Iyer","female","kavitha@spotify",9077770037l);
+	}
+	}

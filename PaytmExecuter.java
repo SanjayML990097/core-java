@@ -1,0 +1,43 @@
+class PaytmExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+Paytm.createAccount("harish","Yadav","male","harish@paytm",9112233445l);
+Paytm.createAccount("komal","Singh","female","komal@paytm",9223344556l);
+Paytm.createAccount("nilesh","Rao","male","nilesh@paytm",9334455667l);
+Paytm.createAccount("anjana","Menon","female","anjana@paytm",9445566778l);
+Paytm.createAccount("sachin","Kulkarni","male","sachin@paytm",9556677889l);
+Paytm.createAccount("pooja","Sharma","female","pooja@paytm",9667788990l);
+Paytm.createAccount("rahul","Verma","male","rahul@paytm",9778899001l);
+Paytm.createAccount("anita","Reddy","female","anita@paytm",9889900112l);
+Paytm.createAccount("suresh","Kumar","male","suresh@paytm",9990011223l);
+Paytm.createAccount("divya","Nair","female","divya@paytm",9001122334l);
+Paytm.createAccount("arun","Singh","male","arun@paytm",9112233555l);
+Paytm.createAccount("megha","Joshi","female","megha@paytm",9223344666l);
+Paytm.createAccount("naveen","Das","male","naveen@paytm",9334455777l);
+Paytm.createAccount("kavitha","Iyer","female","kavitha@paytm",9445566888l);
+Paytm.createAccount("ramesh","Yadav","male","ramesh@paytm",9556677999l);
+Paytm.createAccount("swathi","Rao","female","swathi@paytm",9667788000l);
+Paytm.createAccount("manoj","Pillai","male","manoj@paytm",9778899111l);
+Paytm.createAccount("bhavana","Gupta","female","bhavana@paytm",9889900222l);
+Paytm.createAccount("praveen","Naidu","male","praveen@paytm",9990011333l);
+Paytm.createAccount("lakshmi","Menon","female","lakshmi@paytm",9001122444l);
+Paytm.createAccount("tarun","Malhotra","male","tarun@paytm",9112233666l);
+Paytm.createAccount("neha","Kapoor","female","neha@paytm",9223344777l);
+Paytm.createAccount("gokul","Krishna","male","gokul@paytm",9334455888l);
+Paytm.createAccount("anjali","Desai","female","anjali@paytm",9445566999l);
+Paytm.createAccount("vikram","Chopra","male","vikram@paytm",9556677000l);
+Paytm.createAccount("rahul","Chopra","male","rahul@paytm",9667788111l);
+Paytm.createAccount("priya","Kulkarni","female","priya@paytm",9778899222l);
+Paytm.createAccount("arav","Jain","male","arav@paytm",9889900333l);
+Paytm.createAccount("isha","Reddy","female","isha@paytm",9990011444l);
+Paytm.createAccount("manish","Tiwari","male","manish@paytm",9001122555l);
+Paytm.createAccount("sneha","Patil","female","sneha@paytm",9112233777l);
+Paytm.createAccount("karan","Mehra","male","karan@paytm",9223344888l);
+Paytm.createAccount("ananya","Gupta","female","ananya@paytm",9334455999l);
+Paytm.createAccount("vivek","Roy","male","vivek@paytm",9445566000l);
+Paytm.createAccount("poornima","Shetty","female","poornima@paytm",9556677111l);
+Paytm.createAccount("deepak","Yadav","male","deepak@paytm",9667788222l);
+Paytm.createAccount("kavya","Menon","female","kavya@paytm",9778899333l);
+	}
+	}

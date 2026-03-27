@@ -1,0 +1,43 @@
+class UberExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+Uber.createAccount("rahul","Mehta","male","rahul@uber",9110000001l);
+Uber.createAccount("priya","Sharma","female","priya@uber",9110000002l);
+Uber.createAccount("arjun","Reddy","male","arjun@uber",9110000003l);
+Uber.createAccount("sneha","Iyer","female","sneha@uber",9110000004l);
+Uber.createAccount("vikram","Singh","male","vikram@uber",9110000005l);
+Uber.createAccount("ananya","Das","female","ananya@uber",9110000006l);
+Uber.createAccount("rohit","Verma","male","rohit@uber",9110000007l);
+Uber.createAccount("kavya","Menon","female","kavya@uber",9110000008l);
+Uber.createAccount("sachin","Patil","male","sachin@uber",9110000009l);
+Uber.createAccount("divya","Nair","female","divya@uber",9110000010l);
+Uber.createAccount("manoj","Pillai","male","manoj@uber",9110000011l);
+Uber.createAccount("pooja","Rao","female","pooja@uber",9110000012l);
+Uber.createAccount("naveen","Yadav","male","naveen@uber",9110000013l);
+Uber.createAccount("lakshmi","Krishna","female","lakshmi@uber",9110000014l);
+Uber.createAccount("deepak","Joshi","male","deepak@uber",9110000015l);
+Uber.createAccount("megha","Kapoor","female","megha@uber",9110000016l);
+Uber.createAccount("karan","Malhotra","male","karan@uber",9110000017l);
+Uber.createAccount("anjali","Desai","female","anjali@uber",9110000018l);
+Uber.createAccount("ramesh","Gupta","male","ramesh@uber",9110000019l);
+Uber.createAccount("neha","Singh","female","neha@uber",9110000020l);
+Uber.createAccount("vivek","Chopra","male","vivek@uber",9110000021l);
+Uber.createAccount("swathi","Reddy","female","swathi@uber",9110000022l);
+Uber.createAccount("tarun","Naidu","male","tarun@uber",9110000023l);
+Uber.createAccount("bhavana","Shetty","female","bhavana@uber",9110000024l);
+Uber.createAccount("harsha","Kulkarni","male","harsha@uber",9110000025l);
+Uber.createAccount("isha","Gupta","female","isha@uber",9110000026l);
+Uber.createAccount("gokul","Krishna","male","gokul@uber",9110000027l);
+Uber.createAccount("poornima","Patel","female","poornima@uber",9110000028l);
+Uber.createAccount("amit","Sharma","male","amit@uber",9110000029l);
+Uber.createAccount("snehal","Joshi","female","snehal@uber",9110000030l);
+Uber.createAccount("arav","Jain","male","arav@uber",9110000031l);
+Uber.createAccount("kiran","Patil","female","kiran@uber",9110000032l);
+Uber.createAccount("rahul","Chopra","male","rahul@uber",9110000033l);
+Uber.createAccount("priya","Menon","female","priya@uber",9110000034l);
+Uber.createAccount("manish","Tiwari","male","manish@uber",9110000035l);
+Uber.createAccount("anita","Rao","female","anita@uber",9110000036l);
+Uber.createAccount("suresh","Kumar","male","suresh@uber",9110000037l);
+	}
+	}

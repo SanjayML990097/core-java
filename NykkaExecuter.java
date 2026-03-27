@@ -1,0 +1,43 @@
+class NykkaExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+Nykaa.createAccount("megha","Kapoor","female","megha@nykaa",9066666666l);
+Nykaa.createAccount("arjun","Rawat","male","arjun@nykaa",9077777777l);
+Nykaa.createAccount("sonali","Mishra","female","sonali@nykaa",9088888888l);
+Nykaa.createAccount("deep","Chopra","male","deep@nykaa",9099999999l);
+Nykaa.createAccount("rutuja","Patel","female","rutuja@nykaa",9001234567l);
+Nykaa.createAccount("pooja","Sharma","female","pooja@nykaa",9012345678l);
+Nykaa.createAccount("rahul","Verma","male","rahul@nykaa",9023456789l);
+Nykaa.createAccount("anita","Reddy","female","anita@nykaa",9034567890l);
+Nykaa.createAccount("suresh","Kumar","male","suresh@nykaa",9045678901l);
+Nykaa.createAccount("divya","Nair","female","divya@nykaa",9056789012l);
+Nykaa.createAccount("arun","Singh","male","arun@nykaa",9067890123l);
+Nykaa.createAccount("meena","Joshi","female","meena@nykaa",9078901234l);
+Nykaa.createAccount("naveen","Das","male","naveen@nykaa",9089012345l);
+Nykaa.createAccount("kavitha","Iyer","female","kavitha@nykaa",9090123456l);
+Nykaa.createAccount("ramesh","Yadav","male","ramesh@nykaa",9101234567l);
+Nykaa.createAccount("swathi","Rao","female","swathi@nykaa",9112345678l);
+Nykaa.createAccount("manoj","Pillai","male","manoj@nykaa",9123456789l);
+Nykaa.createAccount("bhavana","Gupta","female","bhavana@nykaa",9134567890l);
+Nykaa.createAccount("praveen","Naidu","male","praveen@nykaa",9145678901l);
+Nykaa.createAccount("lakshmi","Menon","female","lakshmi@nykaa",9156789012l);
+Nykaa.createAccount("tarun","Malhotra","male","tarun@nykaa",9167890123l);
+Nykaa.createAccount("neha","Kapoor","female","neha@nykaa",9178901234l);
+Nykaa.createAccount("gokul","Krishna","male","gokul@nykaa",9189012345l);
+Nykaa.createAccount("anjali","Desai","female","anjali@nykaa",9190123456l);
+Nykaa.createAccount("vikram","Chopra","male","vikram@nykaa",9201234567l);
+Nykaa.createAccount("rahul","Chopra","male","rahul@nykaa",9212345678l);
+Nykaa.createAccount("priya","Kulkarni","female","priya@nykaa",9223456789l);
+Nykaa.createAccount("arav","Jain","male","arav@nykaa",9234567890l);
+Nykaa.createAccount("isha","Reddy","female","isha@nykaa",9245678901l);
+Nykaa.createAccount("manish","Tiwari","male","manish@nykaa",9256789012l);
+Nykaa.createAccount("sneha","Patil","female","sneha@nykaa",9267890123l);
+Nykaa.createAccount("karan","Mehra","male","karan@nykaa",9278901234l);
+Nykaa.createAccount("ananya","Gupta","female","ananya@nykaa",9289012345l);
+Nykaa.createAccount("vivek","Roy","male","vivek@nykaa",9290123456l);
+Nykaa.createAccount("poornima","Shetty","female","poornima@nykaa",9301234567l);
+Nykaa.createAccount("deepak","Yadav","male","deepak@nykaa",9312345678l);
+Nykaa.createAccount("kavya","Menon","female","kavya@nykaa",9323456789l);
+	}
+	}

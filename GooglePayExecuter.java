@@ -1,0 +1,43 @@
+class GooglePayExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+GooglePay.createAccount("nithin","Kulal","male","nithin@gpay",9667770001l);
+GooglePay.createAccount("anjali","Kapoor","female","anjali@gpay",9778880002l);
+GooglePay.createAccount("mahesh","Chavan","male","mahesh@gpay",9889990003l);
+GooglePay.createAccount("radhika","Pandey","female","radhika@gpay",9990001114l);
+GooglePay.createAccount("suraj","Thakur","male","suraj@gpay",9001112225l);
+GooglePay.createAccount("pooja","Sharma","female","pooja@gpay",9012223336l);
+GooglePay.createAccount("rahul","Verma","male","rahul@gpay",9023334447l);
+GooglePay.createAccount("divya","Iyer","female","divya@gpay",9034445558l);
+GooglePay.createAccount("arjun","Reddy","male","arjun@gpay",9045556669l);
+GooglePay.createAccount("sneha","Menon","female","sneha@gpay",9056667770l);
+GooglePay.createAccount("karthik","Rao","male","karthik@gpay",9067778881l);
+GooglePay.createAccount("megha","Kapoor","female","megha@gpay",9078889992l);
+GooglePay.createAccount("sachin","Patil","male","sachin@gpay",9089990004l);
+GooglePay.createAccount("lakshmi","Nair","female","lakshmi@gpay",9090001115l);
+GooglePay.createAccount("deepak","Joshi","male","deepak@gpay",9101112226l);
+GooglePay.createAccount("anjali","Desai","female","anjali2@gpay",9112223337l);
+GooglePay.createAccount("rohit","Singh","male","rohit@gpay",9123334448l);
+GooglePay.createAccount("bhavana","Shetty","female","bhavana@gpay",9134445559l);
+GooglePay.createAccount("vivek","Chopra","male","vivek@gpay",9145556660l);
+GooglePay.createAccount("neha","Gupta","female","neha@gpay",9156667771l);
+GooglePay.createAccount("harsha","Kulkarni","male","harsha@gpay",9167778882l);
+GooglePay.createAccount("isha","Patel","female","isha@gpay",9178889993l);
+GooglePay.createAccount("gokul","Krishna","male","gokul@gpay",9189990005l);
+GooglePay.createAccount("swathi","Reddy","female","swathi@gpay",9190001116l);
+GooglePay.createAccount("karan","Malhotra","male","karan@gpay",9201112227l);
+GooglePay.createAccount("poornima","Naidu","female","poornima@gpay",9212223338l);
+GooglePay.createAccount("amit","Sharma","male","amit@gpay",9223334449l);
+GooglePay.createAccount("kiran","Patil","female","kiran@gpay",9234445560l);
+GooglePay.createAccount("rahul","Chopra","male","rahul2@gpay",9245556671l);
+GooglePay.createAccount("ananya","Roy","female","ananya@gpay",9256667782l);
+GooglePay.createAccount("manish","Tiwari","male","manish@gpay",9267778893l);
+GooglePay.createAccount("anita","Rao","female","anita@gpay",9278889904l);
+GooglePay.createAccount("suresh","Kumar","male","suresh@gpay",9289990015l);
+GooglePay.createAccount("snehal","Joshi","female","snehal@gpay",9290001126l);
+GooglePay.createAccount("arav","Jain","male","arav@gpay",9301112237l);
+GooglePay.createAccount("ramesh","Gupta","male","ramesh@gpay",9312223348l);
+GooglePay.createAccount("kavitha","Iyer","female","kavitha@gpay",9323334459l);
+	}
+	}

@@ -1,0 +1,43 @@
+class PhonePayExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+PhonePe.createAccount("praveen","Rana","male","praveen@phonepe",9012223334l);
+PhonePe.createAccount("rekha","Choudhary","female","rekha@phonepe",9023334445l);
+PhonePe.createAccount("ashok","Naidu","male","ashok@phonepe",9034445556l);
+PhonePe.createAccount("monika","Agarwal","female","monika@phonepe",9045556667l);
+PhonePe.createAccount("gokul","Krishna","male","gokul@phonepe",9056667778l);
+PhonePe.createAccount("pooja","Sharma","female","pooja@phonepe",9067778889l);
+PhonePe.createAccount("rahul","Verma","male","rahul@phonepe",9078889990l);
+PhonePe.createAccount("divya","Iyer","female","divya@phonepe",9089990001l);
+PhonePe.createAccount("arjun","Reddy","male","arjun@phonepe",9090001112l);
+PhonePe.createAccount("sneha","Menon","female","sneha@phonepe",9101112223l);
+PhonePe.createAccount("karthik","Rao","male","karthik@phonepe",9112223334l);
+PhonePe.createAccount("megha","Kapoor","female","megha@phonepe",9123334445l);
+PhonePe.createAccount("sachin","Patil","male","sachin@phonepe",9134445556l);
+PhonePe.createAccount("lakshmi","Nair","female","lakshmi@phonepe",9145556667l);
+PhonePe.createAccount("deepak","Joshi","male","deepak@phonepe",9156667778l);
+PhonePe.createAccount("anjali","Desai","female","anjali@phonepe",9167778889l);
+PhonePe.createAccount("rohit","Singh","male","rohit@phonepe",9178889990l);
+PhonePe.createAccount("bhavana","Shetty","female","bhavana@phonepe",9189990001l);
+PhonePe.createAccount("vivek","Chopra","male","vivek@phonepe",9190001112l);
+PhonePe.createAccount("neha","Gupta","female","neha@phonepe",9201112223l);
+PhonePe.createAccount("harsha","Kulkarni","male","harsha@phonepe",9212223334l);
+PhonePe.createAccount("isha","Patel","female","isha@phonepe",9223334445l);
+PhonePe.createAccount("amit","Sharma","male","amit@phonepe",9234445556l);
+PhonePe.createAccount("swathi","Reddy","female","swathi@phonepe",9245556667l);
+PhonePe.createAccount("karan","Malhotra","male","karan@phonepe",9256667778l);
+PhonePe.createAccount("poornima","Naidu","female","poornima@phonepe",9267778889l);
+PhonePe.createAccount("naveen","Das","male","naveen@phonepe",9278889990l);
+PhonePe.createAccount("kiran","Patil","female","kiran@phonepe",9289990001l);
+PhonePe.createAccount("rahul","Chopra","male","rahul@phonepe",9290001112l);
+PhonePe.createAccount("ananya","Roy","female","ananya@phonepe",9301112223l);
+PhonePe.createAccount("manish","Tiwari","male","manish@phonepe",9312223334l);
+PhonePe.createAccount("anita","Rao","female","anita@phonepe",9323334445l);
+PhonePe.createAccount("suresh","Kumar","male","suresh@phonepe",9334445556l);
+PhonePe.createAccount("snehal","Joshi","female","snehal@phonepe",9345556667l);
+PhonePe.createAccount("arav","Jain","male","arav@phonepe",9356667778l);
+PhonePe.createAccount("ramesh","Gupta","male","ramesh@phonepe",9367778889l);
+PhonePe.createAccount("kavitha","Iyer","female","kavitha@phonepe",9378889990l);
+	}
+	}

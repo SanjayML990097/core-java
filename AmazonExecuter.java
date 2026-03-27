@@ -1,0 +1,43 @@
+class AmazonExecuter{
+public static void main(String args[])
+	{
+System.out.println("the details are:");
+Amazon.createAccount("pooja","Sharma","female","pooja@amazon",9678901256l);
+Amazon.createAccount("rahul","Verma","male","rahul@amazon",9789012367l);
+Amazon.createAccount("anita","Reddy","female","anita@amazon",9890123478l);
+Amazon.createAccount("suresh","Kumar","male","suresh@amazon",9901234589l);
+Amazon.createAccount("divya","Nair","female","divya@amazon",9012345690l);
+Amazon.createAccount("arun","Singh","male","arun@amazon",9123406781l);
+Amazon.createAccount("megha","Joshi","female","megha@amazon",9234517892l);
+Amazon.createAccount("naveen","Das","male","naveen@amazon",9345628903l);
+Amazon.createAccount("kavitha","Iyer","female","kavitha@amazon",9456739014l);
+Amazon.createAccount("ramesh","Yadav","male","ramesh@amazon",9567840125l);
+Amazon.createAccount("swathi","Rao","female","swathi@amazon",9678951236l);
+Amazon.createAccount("manoj","Pillai","male","manoj@amazon",9789062347l);
+Amazon.createAccount("bhavana","Gupta","female","bhavana@amazon",9890173458l);
+Amazon.createAccount("praveen","Naidu","male","praveen@amazon",9901284569l);
+Amazon.createAccount("lakshmi","Menon","female","lakshmi@amazon",9012395670l);
+Amazon.createAccount("tarun","Malhotra","male","tarun@amazon",9123496781l);
+Amazon.createAccount("neha","Kapoor","female","neha@amazon",9234597892l);
+Amazon.createAccount("gokul","Krishna","male","gokul@amazon",9345698903l);
+Amazon.createAccount("anjali","Desai","female","anjali@amazon",9456799014l);
+Amazon.createAccount("vikram","Chopra","male","vikram@amazon",9567801125l);
+Amazon.createAccount("rahul","Chopra","male","rahul@amazon",9678912236l);
+Amazon.createAccount("priya","Kulkarni","female","priya@amazon",9789023347l);
+Amazon.createAccount("arav","Jain","male","arav@amazon",9890134458l);
+Amazon.createAccount("isha","Reddy","female","isha@amazon",9901245569l);
+Amazon.createAccount("manish","Tiwari","male","manish@amazon",9012356670l);
+Amazon.createAccount("sneha","Patil","female","sneha@amazon",9123467781l);
+Amazon.createAccount("karan","Mehra","male","karan@amazon",9234578892l);
+Amazon.createAccount("ananya","Gupta","female","ananya@amazon",9345689903l);
+Amazon.createAccount("vivek","Roy","male","vivek@amazon",9456701014l);
+Amazon.createAccount("poornima","Shetty","female","poornima@amazon",9567812125l);
+Amazon.createAccount("deepak","Yadav","male","deepak@amazon",9678923236l);
+Amazon.createAccount("kavya","Menon","female","kavya@amazon",9789034347l);
+Amazon.createAccount("nithin","Gowda","male","nithin@amazon",9890145458l);
+Amazon.createAccount("bhavana","Rao","female","bhavana@amazon",9901256569l);
+Amazon.createAccount("ajay","Mehta","male","ajay@amazon",9012367670l);
+Amazon.createAccount("meena","Sharma","female","meena@amazon",9123478781l);
+Amazon.createAccount("harsha","Shetty","male","harsha@amazon",9234589892l);
+	}
+}
