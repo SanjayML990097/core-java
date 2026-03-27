@@ -3,224 +3,37 @@ class JioStar {
 
         String ottName = "JioStar";
 
-        // English Horror Movies
-String engH1="The Conjuring";
-String engH2="Annabelle";
-String engH3="The Nun";
-String engH4="Insidious";
-String engH5="The Exorcist";
-String engH6="It";
-String engH7="The Ring";
-String engH8="The Grudge";
-String engH9="A Quiet Place";
-String engH10="The Babadook";
-String engH11="Hereditary";
-String engH12="The Shining";
-String engH13="Sinister";
-String engH14="The Nun 2";
-String engH15="Evil Dead";
-String engH16="Lights Out";
-String engH17="The Conjuring 2";
-String engH18="Annabelle Creation";
-String engH19="The Curse of La Llorona";
-String engH20="The Omen";
-String engH21="Paranormal Activity";
-String engH22="The Exorcism of Emily Rose";
-String engH23="The Autopsy of Jane Doe";
-String engH24="Smile";
-String engH25="The Haunting";
-String engH26="The Possession";
-String engH27="Drag Me to Hell";
-String engH28="The Visit";
-String engH29="Orphan";
-String engH30="The Cabin in the Woods";
+        String englishHorrorMovies[] = {
+            "The Conjuring","Annabelle","The Nun","Insidious","The Exorcist","It","The Ring","The Grudge","A Quiet Place","The Babadook",
+            "Hereditary","The Shining","Sinister","The Nun 2","Evil Dead","Lights Out","The Conjuring 2","Annabelle Creation","The Curse of La Llorona","The Omen",
+            "Paranormal Activity","The Exorcism of Emily Rose","The Autopsy of Jane Doe","Smile","The Haunting","The Possession","Drag Me to Hell","The Visit","Orphan","The Cabin in the Woods"
+        };
 
-String englishHorrorMovies[]={
-engH1,engH2,engH3,engH4,engH5,engH6,engH7,engH8,engH9,engH10,
-engH11,engH12,engH13,engH14,engH15,engH16,engH17,engH18,engH19,engH20,
-engH21,engH22,engH23,engH24,engH25,engH26,engH27,engH28,engH29,engH30
-};
+        String hindiHorrorMovies[] = {
+            "Raaz","1920","Bhoot","Pari","Stree","Tumbbad","Ragini MMS","Haunted 3D","Ek Thi Daayan","Bhool Bhulaiyaa",
+            "Phoonk","Krishna Cottage","Vaastu Shastra","Darna Mana Hai","Darna Zaroori Hai","Raat","Kaal","Horror Story","Pizza","Nanu Ki Jaanu",
+            "Ghost","The House Next Door","Chhorii","Bulbbul","Roohi","13B","Shapit","Creature 3D","Agyaat","Alone"
+        };
 
+        String tamilHorrorMovies[] = {
+            "Chandramukhi","Aranmanai","Demonte Colony","Pizza","Kanchana","Maya","Yaamirukka Bayamey","Aval","Kolaiyuthir Kaalam","Darling",
+            "Jackson Durai","Sivi","Iruttu","Boomerang","Airaa","U Turn","Pisaasu","Massu Engira Masilamani","Eeram","Kalavani 2",
+            "Sangili Bungili Kadhava Thorae","Devi","Anando Brahma","Nenjam Marappathillai","Mercury","Game Over","Kaatteri","Muni","Aranmanai 2","Aranmanai 3"
+        };
 
-for(String english:englishHorrorMovies){
-	System.out.println(english);
-}
+        String teluguHorrorMovies[] = {
+            "Arundhati","Raju Gari Gadhi","Avunu","Prema Katha Chitram","Geethanjali","Anando Brahma","Bhaagamathie","Rakshasudu","Masooda","Ekkadiki Pothavu Chinnavada",
+            "Chandramukhi","Kanchana","Ice Cream","Tripura","Shiva Ganga","Ravoyi Chandamama","Nagavalli","Deyyam","A Film by Aravind","Mantra",
+            "Vaishali","Kalavaramaye Madilo","Kshanam","Zombie Reddy","Punnami Ratri","Ammoru","Gruham","Marri Chettu","Preyasi Raave","Drushyam 2"
+        };
 
-// Hindi Horror Movies
-String hinH1="Raaz";
-String hinH2="1920";
-String hinH3="Bhoot";
-String hinH4="Pari";
-String hinH5="Stree";
-String hinH6="Tumbbad";
-String hinH7="Ragini MMS";
-String hinH8="Haunted 3D";
-String hinH9="Ek Thi Daayan";
-String hinH10="Bhool Bhulaiyaa";
-String hinH11="Phoonk";
-String hinH12="Krishna Cottage";
-String hinH13="Vaastu Shastra";
-String hinH14="Darna Mana Hai";
-String hinH15="Darna Zaroori Hai";
-String hinH16="Raat";
-String hinH17="Kaal";
-String hinH18="Horror Story";
-String hinH19="Pizza";
-String hinH20="Nanu Ki Jaanu";
-String hinH21="Ghost";
-String hinH22="The House Next Door";
-String hinH23="Chhorii";
-String hinH24="Bulbbul";
-String hinH25="Roohi";
-String hinH26="13B";
-String hinH27="Shapit";
-String hinH28="Creature 3D";
-String hinH29="Agyaat";
-String hinH30="Alone";
+        String malayalamHorrorMovies[] = {
+            "Manichitrathazhu","Anandabhadram","Ezra","Bhargavi Nilayam","Winter","Bhoothakaalam","Romancham","The Priest","Cold Case","Geethanjali",
+            "Yakshi","Lisa","Adharvam","Sreekrishna Parunthu","Chathikkatha Chanthu","Devadoothan","Moonnam Pakkam","My Dear Kuttichathan","Aakashaganga","Vellinakshatram",
+            "Nine","Kanchana","Pisaasu","Ghost Villa","Neelavelicham","Pretham","Pretham 2","Kinavalli","Thegidi","Kumari"
+        };
 
-String hindiHorrorMovies[]={
-hinH1,hinH2,hinH3,hinH4,hinH5,hinH6,hinH7,hinH8,hinH9,hinH10,
-hinH11,hinH12,hinH13,hinH14,hinH15,hinH16,hinH17,hinH18,hinH19,hinH20,
-hinH21,hinH22,hinH23,hinH24,hinH25,hinH26,hinH27,hinH28,hinH29,hinH30
-};
-
-
-for(String hindi:hindiHorrorMovies){
-	System.out.println(hindi);
-}
-
-
-// Tamil Horror Movies
-String tamH1="Chandramukhi";
-String tamH2="Aranmanai";
-String tamH3="Demonte Colony";
-String tamH4="Pizza";
-String tamH5="Kanchana";
-String tamH6="Maya";
-String tamH7="Yaamirukka Bayamey";
-String tamH8="Aval";
-String tamH9="Kolaiyuthir Kaalam";
-String tamH10="Darling";
-String tamH11="Jackson Durai";
-String tamH12="Sivi";
-String tamH13="Iruttu";
-String tamH14="Boomerang";
-String tamH15="Airaa";
-String tamH16="U Turn";
-String tamH17="Pisaasu";
-String tamH18="Massu Engira Masilamani";
-String tamH19="Eeram";
-String tamH20="Kalavani 2";
-String tamH21="Sangili Bungili Kadhava Thorae";
-String tamH22="Devi";
-String tamH23="Anando Brahma";
-String tamH24="Nenjam Marappathillai";
-String tamH25="Mercury";
-String tamH26="Game Over";
-String tamH27="Kaatteri";
-String tamH28="Muni";
-String tamH29="Aranmanai 2";
-String tamH30="Aranmanai 3";
-
-String tamilHorrorMovies[]={
-tamH1,tamH2,tamH3,tamH4,tamH5,tamH6,tamH7,tamH8,tamH9,tamH10,
-tamH11,tamH12,tamH13,tamH14,tamH15,tamH16,tamH17,tamH18,tamH19,tamH20,
-tamH21,tamH22,tamH23,tamH24,tamH25,tamH26,tamH27,tamH28,tamH29,tamH30
-};
-
-for(String tamil:tamilHorrorMovies){
-	System.out.println(tamil);
-}
-
-
-// Telugu Horror Movies
-String telH1="Arundhati";
-String telH2="Raju Gari Gadhi";
-String telH3="Avunu";
-String telH4="Prema Katha Chitram";
-String telH5="Geethanjali";
-String telH6="Anando Brahma";
-String telH7="Bhaagamathie";
-String telH8="Rakshasudu";
-String telH9="Masooda";
-String telH10="Ekkadiki Pothavu Chinnavada";
-String telH11="Chandramukhi";
-String telH12="Kanchana";
-String telH13="Ice Cream";
-String telH14="Tripura";
-String telH15="Shiva Ganga";
-String telH16="Ravoyi Chandamama";
-String telH17="Nagavalli";
-String telH18="Deyyam";
-String telH19="A Film by Aravind";
-String telH20="Mantra";
-String telH21="Vaishali";
-String telH22="Kalavaramaye Madilo";
-String telH23="Kshanam";
-String telH24="Zombie Reddy";
-String telH25="Punnami Ratri";
-String telH26="Ammoru";
-String telH27="Gruham";
-String telH28="Marri Chettu";
-String telH29="Preyasi Raave";
-String telH30="Drushyam 2";
-
-String teluguHorrorMovies[]={
-telH1,telH2,telH3,telH4,telH5,telH6,telH7,telH8,telH9,telH10,
-telH11,telH12,telH13,telH14,telH15,telH16,telH17,telH18,telH19,telH20,
-telH21,telH22,telH23,telH24,telH25,telH26,telH27,telH28,telH29,telH30
-};
-
-
-for(String telgu:teluguHorrorMovies){
-	System.out.println(telgu);
-}
-
-// Malayalam Horror Movies
-String malH1="Manichitrathazhu";
-String malH2="Anandabhadram";
-String malH3="Ezra";
-String malH4="Bhargavi Nilayam";
-String malH5="Winter";
-String malH6="Bhoothakaalam";
-String malH7="Romancham";
-String malH8="The Priest";
-String malH9="Cold Case";
-String malH10="Geethanjali";
-String malH11="Yakshi";
-String malH12="Lisa";
-String malH13="Adharvam";
-String malH14="Sreekrishna Parunthu";
-String malH15="Chathikkatha Chanthu";
-String malH16="Devadoothan";
-String malH17="Moonnam Pakkam";
-String malH18="My Dear Kuttichathan";
-String malH19="Aakashaganga";
-String malH20="Vellinakshatram";
-String malH21="Nine";
-String malH22="Kanchana";
-String malH23="Pisaasu";
-String malH24="Ghost Villa";
-String malH25="Neelavelicham";
-String malH26="Pretham";
-String malH27="Pretham 2";
-String malH28="Kinavalli";
-String malH29="Thegidi";
-String malH30="Kumari";
-
-String malayalamHorrorMovies[]={
-malH1,malH2,malH3,malH4,malH5,malH6,malH7,malH8,malH9,malH10,
-malH11,malH12,malH13,malH14,malH15,malH16,malH17,malH18,malH19,malH20,
-malH21,malH22,malH23,malH24,malH25,malH26,malH27,malH28,malH29,malH30
-};
-
-
-
-for(String malyalam:malayalamHorrorMovies){
-	System.out.println(malyalam);
-}
-
-       /* System.out.println("The OTT Platform Name is : " + ottName);
+        System.out.println("The OTT Platform Name is : " + ottName);
 
         // English
         System.out.println("The English Horror Movies are:");
@@ -389,6 +202,6 @@ String m27=malayalamHorrorMovies[26]; System.out.println(m27);
 String m28=malayalamHorrorMovies[27]; System.out.println(m28);
 String m29=malayalamHorrorMovies[28]; System.out.println(m29);
 String m30=malayalamHorrorMovies[29]; System.out.println(m30);
-*/
+
     }
 }

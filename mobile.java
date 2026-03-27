@@ -1,38 +1,16 @@
 class Mobile {
     public static void main(String args[]) {
-		
-		long no1=9900972761L;
-		long no2=9980220795L;
-		long no3=9972994129L;
-		long no4=9108887053L;
-		long no5=9108343664L;
-		long no6=9980220759L;
-		long no7=9972994192L;
-		long no8=9900972716L;
-		long no9= 8088686853L;
-		long no10=8088686853L;
-		long no11=9987467878L;
-		long no12=7890535336L;
-		long no13=7363537837L;
-		long no14=9865746746L;
-		long no15=7864954632L;
-		long no16=9098634286L;
-		long no17=8954820963L;
-		long no18=8940734526L;
-		long no19=8899765469L;
-		long no20=7788534267L;
-		
 
         long contacts[] = {
-            no1,no2,no3,no4,no5,no6,no7,no8,no9,no10,no11,no12,no13,no14,no15,no16,no17,no18,no19,no20
-		};
+            9900972761L, 9980220795L, 9972994129L, 9108887053L,
+            9108343664L, 9980220759L, 9972994192L, 9900972716L,
+            8088686853L, 4387906279L, 9987467878L, 7890535336L,
+            7363537837L, 9865746746L, 7864954632L, 9098634286L,
+            8954820963L, 8940734526L, 8899765469L, 7788534267L
+        };
 
         System.out.println("List of Contacts:");
-		
-		for(long number:contacts){
-			System.out.println("the number is:"+number);
-		}
-/*
+
         long c1 = contacts[0];  System.out.println(c1);
         long c2 = contacts[1];  System.out.println(c2);
         long c3 = contacts[2];  System.out.println(c3);
@@ -53,6 +31,5 @@ class Mobile {
         long c18 = contacts[17]; System.out.println(c18);
         long c19 = contacts[18]; System.out.println(c19);
         long c20 = contacts[19]; System.out.println(c20);
-		*/
     }
 }

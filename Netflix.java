@@ -1,278 +1,38 @@
-class    {
+class Netflix{
 public static void main(String[] args){
 
 	String ottName="Netflix";
 
-	
-        // Kannada Movies
-        String kan1="Kirik Party";
-        String kan2="Avane Srimannarayana";
-        String kan3="Bell Bottom";
-        String kan4="Googly";
-        String kan5="Rajakumara";
-        String kan6="James";
-        String kan7="Gaalipata";
-        String kan8="Milana";
-        String kan9="Mungaru Male";
-        String kan10="Shivalinga";
-        String kan11="Hebbuli";
-        String kan12="Kotigobba";
-        String kan13="Roberrt";
-        String kan14="Yajamana";
-        String kan15="RangiTaranga";
-        String kan16="Simple Agi Ondh Love Story";
-        String kan17="Bhajarangi";
-        String kan18="Mr and Mrs Ramachari";
-        String kan19="Power";
-        String kan20="Victory";
-        String kan21="Chamak";
-        String kan22="Natasaarvabhowma";
-        String kan23="Ranna";
-        String kan24="Addhuri";
-        String kan25="Drama";
-        String kan26="Krishna";
-        String kan27="Bulbul";
-        String kan28="Sarkari Hi Pra Shaale";
-        String kan29="Love 360";
-        String kan30="Ondu Motteya Kathe";
+	String kannadaMovies []={
+"Kirik Party","Avane Srimannarayana","Bell Bottom","Googly","Rajakumara","James","Gaalipata","Milana","Mungaru Male","Shivalinga",
+"Hebbuli","Kotigobba","Roberrt","Yajamana","RangiTaranga","Simple Agi Ondh Love Story","Bhajarangi","Mr and Mrs Ramachari","Power","Victory",
+"Chamak","Natasaarvabhowma","Ranna","Addhuri","Drama","Krishna","Bulbul","Sarkari Hi Pra Shaale","Love 360","Ondu Motteya Kathe"};
 
-        String kannadaMovies[]={
-        kan1,kan2,kan3,kan4,kan5,kan6,kan7,kan8,kan9,kan10,
-        kan11,kan12,kan13,kan14,kan15,kan16,kan17,kan18,kan19,kan20,
-        kan21,kan22,kan23,kan24,kan25,kan26,kan27,kan28,kan29,kan30
-        };
+	String englishMovies []={
+"The Adam Project","Glass Onion","The Platform","Army of the Dead","The Trial of Chicago 7","Marriage Story","Roma","The Pale Blue Eye","Damsel",
+"Leave the World Behind","The Mother","Lift","Code 8","Bright","Okja","To All the Boys","The Kissing Booth","The Old Guard","Polar","The Prom",
+"The Midnight Sky","Extinction","The Babysitter","Project Power","Bird Box Barcelona","Kate","Tall Girl","The Silence","Outside the Wire","Spectral"};
 
+	String hindiMovies []={
+"3 Idiots","Dangal","Andhadhun","Drishyam","Queen","Barfi","Pink","Tumbbad","Stree","Uri",
+"Raazi","Kesari","Shershaah","Special 26","Talvar","Hindi Medium","October","Badhaai Ho","Article 15","Kahaani",
+"Madras Cafe","Airlift","Lootera","Tamasha","Rockstar","Swades","Lagaan","Chak De India","PK","Zindagi Na Milegi Dobara"};
 
-        // English Movies
-        String eng1="The Adam Project";
-        String eng2="Glass Onion";
-        String eng3="The Platform";
-        String eng4="Army of the Dead";
-        String eng5="The Trial of Chicago 7";
-        String eng6="Marriage Story";
-        String eng7="Roma";
-        String eng8="The Pale Blue Eye";
-        String eng9="Damsel";
-        String eng10="Leave the World Behind";
-        String eng11="The Mother";
-        String eng12="Lift";
-        String eng13="Code 8";
-        String eng14="Bright";
-        String eng15="Okja";
-        String eng16="To All the Boys";
-        String eng17="The Kissing Booth";
-        String eng18="The Old Guard";
-        String eng19="Polar";
-        String eng20="The Prom";
-        String eng21="The Midnight Sky";
-        String eng22="Extinction";
-        String eng23="The Babysitter";
-        String eng24="Project Power";
-        String eng25="Bird Box Barcelona";
-        String eng26="Kate";
-        String eng27="Tall Girl";
-        String eng28="The Silence";
-        String eng29="Outside the Wire";
-        String eng30="Spectral";
+	String tamilMovies []={
+"Thuppakki","Anniyan","Ghilli","Kaala","Vettaiyan","Captain Miller","Don","Doctor","Etharkkum Thunindhavan","Valimai",
+"Beast","Varisu","Thunivu","Karnan","Maanaadu","Jai Bhim","Ponniyin Selvan 2","Indian","Lingaa","Kaithi",
+"Bigil","Master","Leo","Jailer","Viswasam","Asuran","Vikram","Darbar","Petta","Theri"};
 
-        String englishMovies[]={
-        eng1,eng2,eng3,eng4,eng5,eng6,eng7,eng8,eng9,eng10,
-        eng11,eng12,eng13,eng14,eng15,eng16,eng17,eng18,eng19,eng20,
-        eng21,eng22,eng23,eng24,eng25,eng26,eng27,eng28,eng29,eng30
-        };
+	String teluguMovies []={
+"Baahubali","Pushpa","RRR","Arjun Reddy","Ala Vaikunthapurramuloo","Eega","Magadheera","Srimanthudu","Attarintiki Daredi","Businessman",
+"Mirchi","Sye","Leader","Fidaa","Majili","Geetha Govindam","Okkadu","Simhadri","Indra","Yevadu",
+"Temper","Race Gurram","Bheemla Nayak","Akhanda","Sarrainodu","Bharat Ane Nenu","Rangasthalam","Jersey","Dear Comrade","Chatrapathi"};
 
+	String malayalamMovies[] = {
+"Drishyam 2","Premalu","Lucifer 2","Minnal Murali 2","Aadu","Urumi","Iyobinte Pusthakam","Virus","Driving Licence","Kali",
+"Maheshinte Prathikaaram","Take Off","Oppam","Nayattu","Jallikattu","Trance","Ayyappanum Koshiyum","Kumbalangi Nights","Bangalore Days","Pulimurugan",
+"Home","The Priest","Cold Case","Malikappuram","Varathan","Anjaam Pathiraa","CBI","Kurup","Bheeshma Parvam","2018"};
 
-        // Printing using for-each loop
-
-        System.out.println("Kannada Movies:");
-        for(String movie : kannadaMovies){
-            System.out.println(movie);
-        }
-
-        System.out.println("\nEnglish Movies:");
-        for(String movie : englishMovies){
-            System.out.println(movie);
-        }
-
-
-        // Hindi Movies
-        String hin1="3 Idiots";
-        String hin2="Dangal";
-        String hin3="Andhadhun";
-        String hin4="Drishyam";
-        String hin5="Queen";
-        String hin6="Barfi";
-        String hin7="Pink";
-        String hin8="Tumbbad";
-        String hin9="Stree";
-        String hin10="Uri";
-        String hin11="Raazi";
-        String hin12="Kesari";
-        String hin13="Shershaah";
-        String hin14="Special 26";
-        String hin15="Talvar";
-        String hin16="Hindi Medium";
-        String hin17="October";
-        String hin18="Badhaai Ho";
-        String hin19="Article 15";
-        String hin20="Kahaani";
-        String hin21="Madras Cafe";
-        String hin22="Airlift";
-        String hin23="Lootera";
-        String hin24="Tamasha";
-        String hin25="Rockstar";
-        String hin26="Swades";
-        String hin27="Lagaan";
-        String hin28="Chak De India";
-        String hin29="PK";
-        String hin30="Zindagi Na Milegi Dobara";
-
-        String hindiMovies[]={
-        hin1,hin2,hin3,hin4,hin5,hin6,hin7,hin8,hin9,hin10,
-        hin11,hin12,hin13,hin14,hin15,hin16,hin17,hin18,hin19,hin20,
-        hin21,hin22,hin23,hin24,hin25,hin26,hin27,hin28,hin29,hin30
-        };
-
-
-        // Tamil Movies
-        String tam1="Thuppakki";
-        String tam2="Anniyan";
-        String tam3="Ghilli";
-        String tam4="Kaala";
-        String tam5="Vettaiyan";
-        String tam6="Captain Miller";
-        String tam7="Don";
-        String tam8="Doctor";
-        String tam9="Etharkkum Thunindhavan";
-        String tam10="Valimai";
-        String tam11="Beast";
-        String tam12="Varisu";
-        String tam13="Thunivu";
-        String tam14="Karnan";
-        String tam15="Maanaadu";
-        String tam16="Jai Bhim";
-        String tam17="Ponniyin Selvan 2";
-        String tam18="Indian";
-        String tam19="Lingaa";
-        String tam20="Kaithi";
-        String tam21="Bigil";
-        String tam22="Master";
-        String tam23="Leo";
-        String tam24="Jailer";
-        String tam25="Viswasam";
-        String tam26="Asuran";
-        String tam27="Vikram";
-        String tam28="Darbar";
-        String tam29="Petta";
-        String tam30="Theri";
-
-        String tamilMovies[]={
-        tam1,tam2,tam3,tam4,tam5,tam6,tam7,tam8,tam9,tam10,
-        tam11,tam12,tam13,tam14,tam15,tam16,tam17,tam18,tam19,tam20,
-        tam21,tam22,tam23,tam24,tam25,tam26,tam27,tam28,tam29,tam30
-        };
-
-
-        // Telugu Movies
-        String tel1="Baahubali";
-        String tel2="Pushpa";
-        String tel3="RRR";
-        String tel4="Arjun Reddy";
-        String tel5="Ala Vaikunthapurramuloo";
-        String tel6="Eega";
-        String tel7="Magadheera";
-        String tel8="Srimanthudu";
-        String tel9="Attarintiki Daredi";
-        String tel10="Businessman";
-        String tel11="Mirchi";
-        String tel12="Sye";
-        String tel13="Leader";
-        String tel14="Fidaa";
-        String tel15="Majili";
-        String tel16="Geetha Govindam";
-        String tel17="Okkadu";
-        String tel18="Simhadri";
-        String tel19="Indra";
-        String tel20="Yevadu";
-        String tel21="Temper";
-        String tel22="Race Gurram";
-        String tel23="Bheemla Nayak";
-        String tel24="Akhanda";
-        String tel25="Sarrainodu";
-        String tel26="Bharat Ane Nenu";
-        String tel27="Rangasthalam";
-        String tel28="Jersey";
-        String tel29="Dear Comrade";
-        String tel30="Chatrapathi";
-
-        String teluguMovies[]={
-        tel1,tel2,tel3,tel4,tel5,tel6,tel7,tel8,tel9,tel10,
-        tel11,tel12,tel13,tel14,tel15,tel16,tel17,tel18,tel19,tel20,
-        tel21,tel22,tel23,tel24,tel25,tel26,tel27,tel28,tel29,tel30
-        };
-
-
-        // Malayalam Movies
-        String mal1="Drishyam 2";
-        String mal2="Premalu";
-        String mal3="Lucifer 2";
-        String mal4="Minnal Murali 2";
-        String mal5="Aadu";
-        String mal6="Urumi";
-        String mal7="Iyobinte Pusthakam";
-        String mal8="Virus";
-        String mal9="Driving Licence";
-        String mal10="Kali";
-        String mal11="Maheshinte Prathikaaram";
-        String mal12="Take Off";
-        String mal13="Oppam";
-        String mal14="Nayattu";
-        String mal15="Jallikattu";
-        String mal16="Trance";
-        String mal17="Ayyappanum Koshiyum";
-        String mal18="Kumbalangi Nights";
-        String mal19="Bangalore Days";
-        String mal20="Pulimurugan";
-        String mal21="Home";
-        String mal22="The Priest";
-        String mal23="Cold Case";
-        String mal24="Malikappuram";
-        String mal25="Varathan";
-        String mal26="Anjaam Pathiraa";
-        String mal27="CBI";
-        String mal28="Kurup";
-        String mal29="Bheeshma Parvam";
-        String mal30="2018";
-
-        String malayalamMovies[]={
-        mal1,mal2,mal3,mal4,mal5,mal6,mal7,mal8,mal9,mal10,
-        mal11,mal12,mal13,mal14,mal15,mal16,mal17,mal18,mal19,mal20,
-        mal21,mal22,mal23,mal24,mal25,mal26,mal27,mal28,mal29,mal30
-        };
-
-
-        // Printing using for-each loop
-
-        System.out.println("Hindi Movies:");
-        for(String movie : hindiMovies){
-            System.out.println(movie);
-        }
-
-        System.out.println("\nTamil Movies:");
-        for(String movie : tamilMovies){
-            System.out.println(movie);
-        }
-
-        System.out.println("\nTelugu Movies:");
-        for(String movie : teluguMovies){
-            System.out.println(movie);
-        }
-
-        System.out.println("\nMalayalam Movies:");
-        for(String movie : malayalamMovies){
-            System.out.println(movie);
-        }
-/*
 		System.out.println("The OTT Platform Name is :" +ottName);
 		
 		System.out.println("The Kannada Movies are:");
@@ -474,9 +234,6 @@ String m27=malayalamMovies[26]; System.out.println(m27);
 String m28=malayalamMovies[27]; System.out.println(m28);
 String m29=malayalamMovies[28]; System.out.println(m29);
 String m30=malayalamMovies[29]; System.out.println(m30);
-*/
+
 }
- for(String movie : malayalamMovies){
-            System.out.println(movie);
-        }
 }

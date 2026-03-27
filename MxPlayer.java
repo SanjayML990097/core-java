@@ -3,278 +3,59 @@ class MxPlayer {
 
         String ottName = "MX Player";
 
-       
-        // Kannada Cartoons
-        String kan1="Chinnu Adventures";
-        String kan2="Bheemana Kathe";
-        String kan3="Ganesha Tales";
-        String kan4="Panchatantra Kannada";
-        String kan5="Tenali Rama Kannada";
-        String kan6="Akbar Birbal Kannada";
-        String kan7="Mysuru Magic";
-        String kan8="Karnataka Kids";
-        String kan9="Chitra Kathe";
-        String kan10="Bala Ganesha";
-        String kan11="Krishna Leela Kannada";
-        String kan12="Hanuman Kannada";
-        String kan13="Junior Detectives";
-        String kan14="Village Kids";
-        String kan15="City Champs";
-        String kan16="Kannada Toons";
-        String kan17="Happy Garden";
-        String kan18="Little Royals";
-        String kan19="Fun Factory Kannada";
-        String kan20="Rainbow Kids";
-        String kan21="Chandamama Stories";
-        String kan22="Tiny Warriors";
-        String kan23="Magic Tree";
-        String kan24="Play Time";
-        String kan25="Wonder Kids";
-        String kan26="Cartoon Junction";
-        String kan27="Super Kids";
-        String kan28="Dream Land";
-        String kan29="Adventure Park";
-        String kan30="Laughing Stars";
-
-        String kannadaCartoons[]={
-        kan1,kan2,kan3,kan4,kan5,kan6,kan7,kan8,kan9,kan10,
-        kan11,kan12,kan13,kan14,kan15,kan16,kan17,kan18,kan19,kan20,
-        kan21,kan22,kan23,kan24,kan25,kan26,kan27,kan28,kan29,kan30
+        String kannadaCartoons[] = {
+            "Chinnu Adventures","Bheemana Kathe","Ganesha Tales","Panchatantra Kannada","Tenali Rama Kannada",
+            "Akbar Birbal Kannada","Mysuru Magic","Karnataka Kids","Chitra Kathe","Bala Ganesha",
+            "Krishna Leela Kannada","Hanuman Kannada","Junior Detectives","Village Kids","City Champs",
+            "Kannada Toons","Happy Garden","Little Royals","Fun Factory Kannada","Rainbow Kids",
+            "Chandamama Stories","Tiny Warriors","Magic Tree","Play Time","Wonder Kids",
+            "Cartoon Junction","Super Kids","Dream Land","Adventure Park","Laughing Stars"
         };
 
-
-        // English Cartoons
-        String eng1="Tom and Jerry";
-        String eng2="Scooby Doo";
-        String eng3="Looney Tunes";
-        String eng4="Popeye";
-        String eng5="The Flintstones";
-        String eng6="Johnny Bravo";
-        String eng7="Dexter Laboratory";
-        String eng8="Powerpuff Girls";
-        String eng9="Ben 10";
-        String eng10="Teen Titans";
-        String eng11="SpongeBob SquarePants";
-        String eng12="Dragon Tales";
-        String eng13="Pokemon";
-        String eng14="Transformers";
-        String eng15="He Man";
-        String eng16="Batman Animated";
-        String eng17="Superman Series";
-        String eng18="Avengers Assemble";
-        String eng19="Kung Fu Panda";
-        String eng20="Madagascar Toons";
-        String eng21="Boss Baby";
-        String eng22="Kung Fu Kids";
-        String eng23="Adventure Time";
-        String eng24="Regular Show";
-        String eng25="Steven Universe";
-        String eng26="Cars Toons";
-        String eng27="Mickey Mouse Clubhouse";
-        String eng28="Duck Tales";
-        String eng29="Aladdin Series";
-        String eng30="Lion Guard";
-
-        String englishCartoons[]={
-        eng1,eng2,eng3,eng4,eng5,eng6,eng7,eng8,eng9,eng10,
-        eng11,eng12,eng13,eng14,eng15,eng16,eng17,eng18,eng19,eng20,
-        eng21,eng22,eng23,eng24,eng25,eng26,eng27,eng28,eng29,eng30
+        String englishCartoons[] = {
+            "Tom and Jerry","Scooby Doo","Looney Tunes","Popeye","The Flintstones",
+            "Johnny Bravo","Dexter Laboratory","Powerpuff Girls","Ben 10","Teen Titans",
+            "SpongeBob SquarePants","Dragon Tales","Pokemon","Transformers","He Man",
+            "Batman Animated","Superman Series","Avengers Assemble","Kung Fu Panda","Madagascar Toons",
+            "Boss Baby","Kung Fu Kids","Adventure Time","Regular Show","Steven Universe",
+            "Cars Toons","Mickey Mouse Clubhouse","Duck Tales","Aladdin Series","Lion Guard"
         };
 
-
-        // Printing using for-each loop
-
-        System.out.println("Kannada Cartoons:");
-        for(String cartoon : kannadaCartoons){
-            System.out.println(cartoon);
-        }
-
-        System.out.println("\nEnglish Cartoons:");
-        for(String cartoon : englishCartoons){
-            System.out.println(cartoon);
-        }
-
-
-
-        // Hindi Cartoons
-        String hin1="Chhota Bheem";
-        String hin2="Motu Patlu";
-        String hin3="Shinchan Hindi";
-        String hin4="Doraemon Hindi";
-        String hin5="Roll No 21";
-        String hin6="Little Singham";
-        String hin7="Vir The Robot Boy";
-        String hin8="Krishna Balram";
-        String hin9="Bal Hanuman";
-        String hin10="Rudra";
-        String hin11="Pakdam Pakdai";
-        String hin12="Guru Aur Bhole";
-        String hin13="Bheem Junior";
-        String hin14="Gattu Battu";
-        String hin15="Mighty Raju";
-        String hin16="Arjun Prince";
-        String hin17="Lambu G Tingu G";
-        String hin18="Chorr Police";
-        String hin19="Bhoot Bandhus";
-        String hin20="Tarak Mehta Toons";
-        String hin21="Happy Kids Hindi";
-        String hin22="Golmaal Junior";
-        String hin23="Kumbh Karan";
-        String hin24="Alibaba Cartoon";
-        String hin25="Jungle Book Hindi";
-        String hin26="Chacha Bhatija";
-        String hin27="Akbar Birbal Hindi";
-        String hin28="Tenali Rama Hindi";
-        String hin29="Bal Krishna";
-        String hin30="Super V";
-
-        String hindiCartoons[]={
-        hin1,hin2,hin3,hin4,hin5,hin6,hin7,hin8,hin9,hin10,
-        hin11,hin12,hin13,hin14,hin15,hin16,hin17,hin18,hin19,hin20,
-        hin21,hin22,hin23,hin24,hin25,hin26,hin27,hin28,hin29,hin30
+        String hindiCartoons[] = {
+            "Chhota Bheem","Motu Patlu","Shinchan Hindi","Doraemon Hindi","Roll No 21",
+            "Little Singham","Vir The Robot Boy","Krishna Balram","Bal Hanuman","Rudra",
+            "Pakdam Pakdai","Guru Aur Bhole","Bheem Junior","Gattu Battu","Mighty Raju",
+            "Arjun Prince","Lambu G Tingu G","Chorr Police","Bhoot Bandhus","Tarak Mehta Toons",
+            "Happy Kids Hindi","Golmaal Junior","Kumbh Karan","Alibaba Cartoon","Jungle Book Hindi",
+            "Chacha Bhatija","Akbar Birbal Hindi","Tenali Rama Hindi","Bal Krishna","Super V"
         };
 
-
-        // Tamil Cartoons
-        String tam1="Chutti Bheem";
-        String tam2="Doraemon Tamil";
-        String tam3="Shinchan Tamil";
-        String tam4="Motu Patlu Tamil";
-        String tam5="Roll No 21 Tamil";
-        String tam6="Little Krishna Tamil";
-        String tam7="Hanuman Tamil";
-        String tam8="Tamil Kids Show";
-        String tam9="Village Heroes";
-        String tam10="City Kids Tamil";
-        String tam11="Magic Pot";
-        String tam12="Tiny World";
-        String tam13="Adventure Kids Tamil";
-        String tam14="Junior Superstars";
-        String tam15="Fun Time Tamil";
-        String tam16="Cartoon Express";
-        String tam17="Happy Friends";
-        String tam18="Rainbow Tamil";
-        String tam19="Chinna Stories";
-        String tam20="Kutty Adventures";
-        String tam21="Kids Planet";
-        String tam22="Wonder Tamil";
-        String tam23="Play School";
-        String tam24="Dream Kids Tamil";
-        String tam25="Magic Balloon";
-        String tam26="Animal Tales";
-        String tam27="Fairy Land";
-        String tam28="Super Kutty";
-        String tam29="Happy Garden Tamil";
-        String tam30="Laughing Kids";
-
-        String tamilCartoons[]={
-        tam1,tam2,tam3,tam4,tam5,tam6,tam7,tam8,tam9,tam10,
-        tam11,tam12,tam13,tam14,tam15,tam16,tam17,tam18,tam19,tam20,
-        tam21,tam22,tam23,tam24,tam25,tam26,tam27,tam28,tam29,tam30
+        String tamilCartoons[] = {
+            "Chutti Bheem","Doraemon Tamil","Shinchan Tamil","Motu Patlu Tamil","Roll No 21 Tamil",
+            "Little Krishna Tamil","Hanuman Tamil","Tamil Kids Show","Village Heroes","City Kids Tamil",
+            "Magic Pot","Tiny World","Adventure Kids Tamil","Junior Superstars","Fun Time Tamil",
+            "Cartoon Express","Happy Friends","Rainbow Tamil","Chinna Stories","Kutty Adventures",
+            "Kids Planet","Wonder Tamil","Play School","Dream Kids Tamil","Magic Balloon",
+            "Animal Tales","Fairy Land","Super Kutty","Happy Garden Tamil","Laughing Kids"
         };
 
-
-        // Telugu Cartoons
-        String tel1="Chhota Bheem Telugu";
-        String tel2="Doraemon Telugu";
-        String tel3="Shinchan Telugu";
-        String tel4="Motu Patlu Telugu";
-        String tel5="Roll No 21 Telugu";
-        String tel6="Little Singham Telugu";
-        String tel7="Krishna Telugu";
-        String tel8="Hanuman Telugu";
-        String tel9="Bala Ganesh Telugu";
-        String tel10="Junior Heroes";
-        String tel11="Telugu Toons";
-        String tel12="Fun Bucket";
-        String tel13="Tiny Champs";
-        String tel14="Village Champs";
-        String tel15="City Heroes Telugu";
-        String tel16="Magic World";
-        String tel17="Rainbow Telugu";
-        String tel18="Kids Express";
-        String tel19="Adventure Telugu";
-        String tel20="Dream World";
-        String tel21="Cartoon Club";
-        String tel22="Super Kids Telugu";
-        String tel23="Animal Planet Kids";
-        String tel24="Fairy Tales Telugu";
-        String tel25="Play Time Telugu";
-        String tel26="Chinni Krishna";
-        String tel27="Bheem Returns";
-        String tel28="Jungle Heroes";
-        String tel29="Happy Telugu Kids";
-        String tel30="Laugh Out Loud";
-
-        String teluguCartoons[]={
-        tel1,tel2,tel3,tel4,tel5,tel6,tel7,tel8,tel9,tel10,
-        tel11,tel12,tel13,tel14,tel15,tel16,tel17,tel18,tel19,tel20,
-        tel21,tel22,tel23,tel24,tel25,tel26,tel27,tel28,tel29,tel30
+        String teluguCartoons[] = {
+            "Chhota Bheem Telugu","Doraemon Telugu","Shinchan Telugu","Motu Patlu Telugu","Roll No 21 Telugu",
+            "Little Singham Telugu","Krishna Telugu","Hanuman Telugu","Bala Ganesh Telugu","Junior Heroes",
+            "Telugu Toons","Fun Bucket","Tiny Champs","Village Champs","City Heroes Telugu",
+            "Magic World","Rainbow Telugu","Kids Express","Adventure Telugu","Dream World",
+            "Cartoon Club","Super Kids Telugu","Animal Planet Kids","Fairy Tales Telugu","Play Time Telugu",
+            "Chinni Krishna","Bheem Returns","Jungle Heroes","Happy Telugu Kids","Laugh Out Loud"
         };
 
-
-        // Malayalam Cartoons
-        String mal1="Chhota Bheem Malayalam";
-        String mal2="Doraemon Malayalam";
-        String mal3="Shinchan Malayalam";
-        String mal4="Motu Patlu Malayalam";
-        String mal5="Roll No 21 Malayalam";
-        String mal6="Little Krishna Malayalam";
-        String mal7="Bal Hanuman Malayalam";
-        String mal8="Junior Stars";
-        String mal9="Magic Kerala";
-        String mal10="Tiny Kids";
-        String mal11="Malayalam Toons";
-        String mal12="Happy World";
-        String mal13="Adventure Kerala";
-        String mal14="Rainbow Malayalam";
-        String mal15="Dream Kids Malayalam";
-        String mal16="Fun Planet";
-        String mal17="Animal Tales Malayalam";
-        String mal18="Fairy World";
-        String mal19="Super Tots";
-        String mal20="Laughing Kerala";
-        String mal21="Cartoon Time";
-        String mal22="Kids Club Malayalam";
-        String mal23="Wonder Land";
-        String mal24="Play House";
-        String mal25="Magic Balloon Malayalam";
-        String mal26="Jungle Book Malayalam";
-        String mal27="Bheem Junior Malayalam";
-        String mal28="Chutti Heroes";
-        String mal29="Happy Garden Malayalam";
-        String mal30="Smiley Kids";
-
-        String malayalamCartoons[]={
-        mal1,mal2,mal3,mal4,mal5,mal6,mal7,mal8,mal9,mal10,
-        mal11,mal12,mal13,mal14,mal15,mal16,mal17,mal18,mal19,mal20,
-        mal21,mal22,mal23,mal24,mal25,mal26,mal27,mal28,mal29,mal30
+        String malayalamCartoons[] = {
+            "Chhota Bheem Malayalam","Doraemon Malayalam","Shinchan Malayalam","Motu Patlu Malayalam","Roll No 21 Malayalam",
+            "Little Krishna Malayalam","Bal Hanuman Malayalam","Junior Stars","Magic Kerala","Tiny Kids",
+            "Malayalam Toons","Happy World","Adventure Kerala","Rainbow Malayalam","Dream Kids Malayalam",
+            "Fun Planet","Animal Tales Malayalam","Fairy World","Super Tots","Laughing Kerala",
+            "Cartoon Time","Kids Club Malayalam","Wonder Land","Play House","Magic Balloon Malayalam",
+            "Jungle Book Malayalam","Bheem Junior Malayalam","Chutti Heroes","Happy Garden Malayalam","Smiley Kids"
         };
-
-
-        // Printing using for-each loop
-
-        System.out.println("Hindi Cartoons:");
-        for(String cartoon : hindiCartoons){
-            System.out.println(cartoon);
-        }
-
-        System.out.println("\nTamil Cartoons:");
-        for(String cartoon : tamilCartoons){
-            System.out.println(cartoon);
-        }
-
-        System.out.println("\nTelugu Cartoons:");
-        for(String cartoon : teluguCartoons){
-            System.out.println(cartoon);
-        }
-
-        System.out.println("\nMalayalam Cartoons:");
-        for(String cartoon : malayalamCartoons){
-            System.out.println(cartoon);
-        }
-
-    /*
 
         System.out.println("The OTT Platform Name is: " + ottName);
 
@@ -477,6 +258,6 @@ String m27=malayalamCartoons[26]; System.out.println(m27);
 String m28=malayalamCartoons[27]; System.out.println(m28);
 String m29=malayalamCartoons[28]; System.out.println(m29);
 String m30=malayalamCartoons[29]; System.out.println(m30);
-*/
+
     }
 }

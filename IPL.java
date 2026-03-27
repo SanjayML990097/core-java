@@ -2,33 +2,17 @@ class IPL {
     public static void main(String args[]) {
 
         String tournamentName = "IPL";
-		        System.out.println("Tournament name is " + tournamentName);
 
-		
-		String chennai="chennai super kings";
-		String mumbai="Mumbi indians";
-		String banglore="RCB";
-		String kolkata="KKR";
-		String delhi="delhi capitals";
-		String rajasthan="rajasthan royals";
-		String hydreabad="SRH";
-		String punjab="punjab kings";
-		String luckknow="luckknow super jaints";
-		String gujurat="gujurat jaints";
-		
+        String teams[] = {
+            "Chennai Super Kings","Mumbai Indians","Royal Challengers Bangalore","Kolkata Knight Riders","Delhi Capitals",
+            "Rajasthan Royals","Sunrisers Hyderabad","Punjab Kings","Lucknow Super Giants","Gujarat Titans"
+        };
 
-        String teams[] = {chennai,mumbai,banglore,kolkata,delhi,rajasthan,hydreabad,punjab,luckknow,gujurat};
-            
-
+        System.out.println("Tournament name is " + tournamentName);
 
         System.out.println("List of IPL teams are:");
-		
-		for(String team:teams){
-			
-			System.out.println(team);
-		}
 
-       /* String team1 = teams[0];
+        String team1 = teams[0];
         System.out.println(team1);
 
         String team2 = teams[1];
@@ -57,6 +41,5 @@ class IPL {
 
         String team10 = teams[9];
         System.out.println(team10);
-		*/
     }
 }

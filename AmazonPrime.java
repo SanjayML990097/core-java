@@ -2,267 +2,64 @@ class AmazonPrime {
     public static void main(String[] args) {
 
         String ottName = "Amazon Prime";
-		        System.out.println("The OTT Platform Name is : " + ottName);
 
+        String kannadaSeries[] = {
+            "Loose Connection","Humble Politician Nograj","Gaalipata Series","By Mistake","Love You Abhi","Campus Kahani",
+            "Bengaluru Diaries","Kannada Crime Files","Metro Stories","Silicon City Nights",
+            "Mysuru Mysteries","Karavali Chronicles","Namma Ooru","Startup Kannada","Royal Blood",
+            "Naadu Kathegalu","City Detectives","Village Tales","Kannada Thrillers","Rajya Rahasya",
+            "Bengaluru 560001","Naadina Nayaka","Katha Sangraha","Tech Park","Marali Baa",
+            "Police File","Kannada Web Show","Drama Junction","Weekend Stories","Janamana"
+        };
 
-        String series1="Loose Connection";
-String series2="Humble Politician Nograj";
-String series3="Gaalipata Series";
-String series4="By Mistake";
-String series5="Love You Abhi";
-String series6="Campus Kahani";
-String series7="Bengaluru Diaries";
-String series8="Kannada Crime Files";
-String series9="Metro Stories";
-String series10="Silicon City Nights";
-String series11="Mysuru Mysteries";
-String series12="Karavali Chronicles";
-String series13="Namma Ooru";
-String series14="Startup Kannada";
-String series15="Royal Blood";
-String series16="Naadu Kathegalu";
-String series17="City Detectives";
-String series18="Village Tales";
-String series19="Kannada Thrillers";
-String series20="Rajya Rahasya";
-String series21="Bengaluru 560001";
-String series22="Naadina Nayaka";
-String series23="Katha Sangraha";
-String series24="Tech Park";
-String series25="Marali Baa";
-String series26="Police File";
-String series27="Kannada Web Show";
-String series28="Drama Junction";
-String series29="Weekend Stories";
-String series30="Janamana";
+        String englishSeries[] = {
+            "The Boys","Reacher","Jack Ryan","The Marvelous Mrs Maisel","The Man in the High Castle",
+            "Good Omens","Upload","Hunters","Fleabag","Invincible",
+            "Outer Range","The Expanse","Bosch","Carnival Row","Homecoming",
+            "Modern Love","Citadel","The Wheel of Time","Gen V","The Terminal List",
+            "Tales from the Loop","Night Sky","Patriot","Forever","Sneaky Pete",
+            "The Wilds","Utopia","Absentia","Truth Seekers","Clarkson Farm"
+        };
 
-String kannadaSeries[] = {
-series1,series2,series3,series4,series5,series6,series7,series8,series9,series10,
-series11,series12,series13,series14,series15,series16,series17,series18,series19,series20,
-series21,series22,series23,series24,series25,series26,series27,series28,series29,series30
-};
+        String hindiSeries[] = {
+            "Mirzapur","The Family Man","Paatal Lok","Farzi","Made in Heaven",
+            "Bandish Bandits","Breathe","Inside Edge","Mumbai Diaries","Panchayat",
+            "Hostel Daze","Guilty Minds","Rasbhari","Tandav","Modern Love Mumbai",
+            "Four More Shots","Comicstaan","Jubilee","Dahaad","Call Me Bae",
+            "Campus Beats","Crash Course","Laakhon Mein Ek","The Forgotten Army","Hush Hush",
+            "Happy Family","Trial by Fire","Suzhal Hindi","Indian Police Force","Rainbow Rishta"
+        };
 
-for(String kannada:kannadaSeries){
-	System.out.println(kannada);
-	}
+        String tamilSeries[] = {
+            "Suzhal","The Village","Vadhandhi","Modern Love Chennai","Inspector Rishi",
+            "Time Enna Boss","Paper Rocket","Iru Dhuruvam","November Story","Navarasa",
+            "Queen","Auto Shankar","Vella Raja","High Priestess","Live Telecast",
+            "PUBGOA","Anantham","Addham","Sengalam","Label",
+            "Story of Things","Fall","Ayali","Tamil Chronicles","Metro Crime",
+            "Chutney Sambar","Office Tamil","Kana Kaanum","As I Am Suffering","Thalaimai"
+        };
 
+        String teluguSeries[] = {
+            "The Family Man Telugu","Mirzapur Telugu","Panchayat Telugu","Newsense","Modern Love Hyderabad",
+            "Agent Anand","Kudi Yedamaithe","Unheard","Locked","3 Roses",
+            "Mansion 24","ATM","Parampara","Loser","Sin",
+            "Meet Cute","Jhansi","Dayaa","Recce","Telugu Crime Files",
+            "Vyavastha","Oka Chinna Family Story","Puli Meka","Highway","Bhamakalapam",
+            "Save the Tigers","Dhootha","Aha Naa Pellanta","Kudi Right","Gaalivaana"
+        };
 
-       // English Series
-String eng1="The Boys";
-String eng2="Reacher";
-String eng3="Jack Ryan";
-String eng4="The Marvelous Mrs Maisel";
-String eng5="The Man in the High Castle";
-String eng6="Good Omens";
-String eng7="Upload";
-String eng8="Hunters";
-String eng9="Fleabag";
-String eng10="Invincible";
-String eng11="Outer Range";
-String eng12="The Expanse";
-String eng13="Bosch";
-String eng14="Carnival Row";
-String eng15="Homecoming";
-String eng16="Modern Love";
-String eng17="Citadel";
-String eng18="The Wheel of Time";
-String eng19="Gen V";
-String eng20="The Terminal List";
-String eng21="Tales from the Loop";
-String eng22="Night Sky";
-String eng23="Patriot";
-String eng24="Forever";
-String eng25="Sneaky Pete";
-String eng26="The Wilds";
-String eng27="Utopia";
-String eng28="Absentia";
-String eng29="Truth Seekers";
-String eng30="Clarkson Farm";
+        String malayalamSeries[] = {
+            "Kerala Crime Files","The Village Malayalam","Modern Love Kochi","Masterpeace","Perilloor Premier League",
+            "Jai Mahendran","Oru Chiri Iru Chiri","Average Ambili","Instagraamam","Meow Series",
+            "Family Web","Malayali Detectives","Curry and Cyanide","The Last Page","Godman",
+            "Monsoon Stories","Backwaters","Thrissur Files","Kochi Diaries","Metro Malayali",
+            "Campus Malayalam","Village 24","Crime Story","Nerariyan","Home Series",
+            "Police Station","Coastal Tales","City Nights","Mollywood Hub","2018 Series"
+        };
 
-String englishSeries[]={
-eng1,eng2,eng3,eng4,eng5,eng6,eng7,eng8,eng9,eng10,
-eng11,eng12,eng13,eng14,eng15,eng16,eng17,eng18,eng19,eng20,
-eng21,eng22,eng23,eng24,eng25,eng26,eng27,eng28,eng29,eng30
-};
+        System.out.println("The OTT Platform Name is : " + ottName);
 
-for(String english:englishSeries){
-	System.out.println(english);
-	}
-
-
-// Hindi Series
-String hin1="Mirzapur";
-String hin2="The Family Man";
-String hin3="Paatal Lok";
-String hin4="Farzi";
-String hin5="Made in Heaven";
-String hin6="Bandish Bandits";
-String hin7="Breathe";
-String hin8="Inside Edge";
-String hin9="Mumbai Diaries";
-String hin10="Panchayat";
-String hin11="Hostel Daze";
-String hin12="Guilty Minds";
-String hin13="Rasbhari";
-String hin14="Tandav";
-String hin15="Modern Love Mumbai";
-String hin16="Four More Shots";
-String hin17="Comicstaan";
-String hin18="Jubilee";
-String hin19="Dahaad";
-String hin20="Call Me Bae";
-String hin21="Campus Beats";
-String hin22="Crash Course";
-String hin23="Laakhon Mein Ek";
-String hin24="The Forgotten Army";
-String hin25="Hush Hush";
-String hin26="Happy Family";
-String hin27="Trial by Fire";
-String hin28="Suzhal Hindi";
-String hin29="Indian Police Force";
-String hin30="Rainbow Rishta";
-
-String hindiSeries[]={
-hin1,hin2,hin3,hin4,hin5,hin6,hin7,hin8,hin9,hin10,
-hin11,hin12,hin13,hin14,hin15,hin16,hin17,hin18,hin19,hin20,
-hin21,hin22,hin23,hin24,hin25,hin26,hin27,hin28,hin29,hin30
-};
-
-       for(String hindi:hindiSeries){
-		   System.out.println(hindi);
-	   }
-		   
-
-        // Tamil Series
-String tam1="Suzhal";
-String tam2="The Village";
-String tam3="Vadhandhi";
-String tam4="Modern Love Chennai";
-String tam5="Inspector Rishi";
-String tam6="Time Enna Boss";
-String tam7="Paper Rocket";
-String tam8="Iru Dhuruvam";
-String tam9="November Story";
-String tam10="Navarasa";
-String tam11="Queen";
-String tam12="Auto Shankar";
-String tam13="Vella Raja";
-String tam14="High Priestess";
-String tam15="Live Telecast";
-String tam16="PUBGOA";
-String tam17="Anantham";
-String tam18="Addham";
-String tam19="Sengalam";
-String tam20="Label";
-String tam21="Story of Things";
-String tam22="Fall";
-String tam23="Ayali";
-String tam24="Tamil Chronicles";
-String tam25="Metro Crime";
-String tam26="Chutney Sambar";
-String tam27="Office Tamil";
-String tam28="Kana Kaanum";
-String tam29="As I Am Suffering";
-String tam30="Thalaimai";
-
-String tamilSeries[]={
-tam1,tam2,tam3,tam4,tam5,tam6,tam7,tam8,tam9,tam10,
-tam11,tam12,tam13,tam14,tam15,tam16,tam17,tam18,tam19,tam20,
-tam21,tam22,tam23,tam24,tam25,tam26,tam27,tam28,tam29,tam30
-};
-
-	for(String tamil:tamilSeries){
-		System.out.println(tamil);
-	}
-
-// Telugu Series
-String tel1="The Family Man Telugu";
-String tel2="Mirzapur Telugu";
-String tel3="Panchayat Telugu";
-String tel4="Newsense";
-String tel5="Modern Love Hyderabad";
-String tel6="Agent Anand";
-String tel7="Kudi Yedamaithe";
-String tel8="Unheard";
-String tel9="Locked";
-String tel10="3 Roses";
-String tel11="Mansion 24";
-String tel12="ATM";
-String tel13="Parampara";
-String tel14="Loser";
-String tel15="Sin";
-String tel16="Meet Cute";
-String tel17="Jhansi";
-String tel18="Dayaa";
-String tel19="Recce";
-String tel20="Telugu Crime Files";
-String tel21="Vyavastha";
-String tel22="Oka Chinna Family Story";
-String tel23="Puli Meka";
-String tel24="Highway";
-String tel25="Bhamakalapam";
-String tel26="Save the Tigers";
-String tel27="Dhootha";
-String tel28="Aha Naa Pellanta";
-String tel29="Kudi Right";
-String tel30="Gaalivaana";
-
-String teluguSeries[]={
-tel1,tel2,tel3,tel4,tel5,tel6,tel7,tel8,tel9,tel10,
-tel11,tel12,tel13,tel14,tel15,tel16,tel17,tel18,tel19,tel20,
-tel21,tel22,tel23,tel24,tel25,tel26,tel27,tel28,tel29,tel30
-};
-
-for(String telgu:teluguSeries){
-	System.out.println(telgu);
-}
-
-
-// Malayalam Series
-String mal1="Kerala Crime Files";
-String mal2="The Village Malayalam";
-String mal3="Modern Love Kochi";
-String mal4="Masterpeace";
-String mal5="Perilloor Premier League";
-String mal6="Jai Mahendran";
-String mal7="Oru Chiri Iru Chiri";
-String mal8="Average Ambili";
-String mal9="Instagraamam";
-String mal10="Meow Series";
-String mal11="Family Web";
-String mal12="Malayali Detectives";
-String mal13="Curry and Cyanide";
-String mal14="The Last Page";
-String mal15="Godman";
-String mal16="Monsoon Stories";
-String mal17="Backwaters";
-String mal18="Thrissur Files";
-String mal19="Kochi Diaries";
-String mal20="Metro Malayali";
-String mal21="Campus Malayalam";
-String mal22="Village 24";
-String mal23="Crime Story";
-String mal24="Nerariyan";
-String mal25="Home Series";
-String mal26="Police Station";
-String mal27="Coastal Tales";
-String mal28="City Nights";
-String mal29="Mollywood Hub";
-String mal30="2018 Series";
-
-String malayalamSeries[]={
-mal1,mal2,mal3,mal4,mal5,mal6,mal7,mal8,mal9,mal10,
-mal11,mal12,mal13,mal14,mal15,mal16,mal17,mal18,mal19,mal20,
-mal21,mal22,mal23,mal24,mal25,mal26,mal27,mal28,mal29,mal30
-};
-
-for(String malyalam:malayalamSeries){
-	System.out.println(malyalam);
-}
-
-     /*   System.out.println("The OTT Platform Name is : " + ottName);
-
-         Kannada
+        // Kannada
         System.out.println("The Kannada series are:");
         String k1=kannadaSeries[0]; System.out.println(k1);
         String k2=kannadaSeries[1]; System.out.println(k2);
@@ -462,6 +259,6 @@ for(String malyalam:malayalamSeries){
         String m28=malayalamSeries[27]; System.out.println(m28);
         String m29=malayalamSeries[28]; System.out.println(m29);
         String m30=malayalamSeries[29]; System.out.println(m30);
-*/
+
     }
 }
