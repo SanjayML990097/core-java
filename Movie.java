@@ -1,23 +1,22 @@
-class Movie {
-    
-    int movieId;
-    String movieName;
-    String genre;
-    int duration;
-    String language;
-    
-    Actor actor;
-
-    public void getMovieDetails() {
-        System.out.println("The movieId is: " + movieId);
-        System.out.println("The movieName is: " + movieName);
-        System.out.println("The genre is: " + genre);
-        System.out.println("The duration is: " + duration);
-        System.out.println("The language is: " + language);
-
-        actor.getActorDetails();
-    }
+class Movie{
+	String casts[] = new String[9];
+	int index;
+	
+	public boolean addCast(String cast){
+		boolean isCastAdded = false;
+		if(cast != null && !cast.isEmpty()){
+			casts[index++] = cast;
+			isCastAdded = true;
+		}else{
+			System.out.println("cast not added");
+		}
+		return isCastAdded;
+	}
+	
+	public void getCasts(){
+		System.out.println("the movie casts are :");
+		for(String cast : casts){
+			System.out.println(cast);
+		}
+	}
 }
-
-
-
