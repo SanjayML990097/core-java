@@ -1,4 +1,3 @@
-
 class HouseExecuter{
 	public static void main(String args[]){
 		House h = new House();
@@ -15,6 +14,12 @@ class HouseExecuter{
 		System.out.println(added);
 		added = h.addGame("Playing Cards");
 		System.out.println(added);
+
+		boolean updated = h.updateGame("Ludo", "UNO");
+		System.out.println(updated);
+
+		boolean deleted = h.deleteGame("Carrom");
+		System.out.println(deleted);
 
 		h.getGames();
 	}

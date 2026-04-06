@@ -1,4 +1,3 @@
-
 class MaggiExecuter{
 	public static void main(String args[]){
 		Maggi m = new Maggi();
@@ -27,6 +26,12 @@ class MaggiExecuter{
 		System.out.println(added);
 		added = m.addIngredient("Starch");
 		System.out.println(added);
+
+		boolean updated = m.updateIngredient("Salt", "Sea Salt");
+		System.out.println(updated);
+
+		boolean deleted = m.deleteIngredient("Sugar");
+		System.out.println(deleted);
 
 		m.getIngredients();
 	}

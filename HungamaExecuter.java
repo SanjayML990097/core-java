@@ -1,4 +1,3 @@
-
 class HungamaExecuter{
 	public static void main(String args[]){
 		Hungama h = new Hungama();
@@ -31,6 +30,12 @@ class HungamaExecuter{
 		System.out.println(added);
 		added = h.addShow("Motu Patlu");
 		System.out.println(added);
+
+		boolean updated = h.updateShow("Pokemon", "Pokemon Ultimate");
+		System.out.println(updated);
+
+		boolean deleted = h.deleteShow("Ben 10");
+		System.out.println(deleted);
 
 		h.getShows();
 	}

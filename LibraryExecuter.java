@@ -29,6 +29,12 @@ class LibraryExecuter{
 		added = l.addBook("Mobile App Development");
 		System.out.println(added);
 
+		boolean updated = l.updateBook("Python Basics", "Advanced Python");
+		System.out.println(updated);
+
+		boolean deleted = l.deleteBook("Cyber Security");
+		System.out.println(deleted);
+
 		l.getBooks();
 	}
 }

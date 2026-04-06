@@ -1,4 +1,3 @@
-
 class MilitaryExecuter{
 	public static void main(String args[]){
 		Military m = new Military();
@@ -45,6 +44,12 @@ class MilitaryExecuter{
 		System.out.println(added);
 		added = m.addWeapon("Anti-Aircraft Gun");
 		System.out.println(added);
+
+		boolean updated = m.updateWeapon("Tank", "Battle Tank");
+		System.out.println(updated);
+
+		boolean deleted = m.deleteWeapon("Grenade");
+		System.out.println(deleted);
 
 		m.getWeapons();
 	}

@@ -1,4 +1,3 @@
-
 class CourseExecuter{
 	public static void main(String args[]){
 		Course c = new Course();
@@ -33,6 +32,12 @@ class CourseExecuter{
 		System.out.println(added);
 		added = c.addTechnology("Docker");
 		System.out.println(added);
+
+		boolean updated = c.updateTechnology("Java", "Advanced Java");
+		System.out.println(updated);
+
+		boolean deleted = c.deleteTechnology("C");
+		System.out.println(deleted);
 
 		c.getTechnologies();
 	}

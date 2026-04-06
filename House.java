@@ -13,10 +13,45 @@ class House{
 		return isGameAdded;
 	}
 	
+	public boolean updateGame(String oldGame, String newGame){
+		boolean isUpdated = false;
+		if(oldGame != null && newGame != null){
+			for(int i=0; i<indoorGames.length; i++){
+				if(oldGame.equals(indoorGames[i])){
+					indoorGames[i] = newGame;
+					isUpdated = true;
+					break;
+				}
+			}
+		}
+		if(!isUpdated){
+			System.out.println("game not found to update");
+		}
+		return isUpdated;
+	}
+	
+	public boolean deleteGame(String game){
+		boolean isDeleted = false;
+		if(game != null){
+			for(int i=0; i<indoorGames.length; i++){
+				if(game.equals(indoorGames[i])){
+					indoorGames[i] = null;
+					isDeleted = true;
+					break;
+				}
+			}
+		}
+		if(!isDeleted){
+			System.out.println("game not found to delete");
+		}
+		return isDeleted;
+	}
+	
 	public void getGames(){
 		System.out.println("the indoor games are :");
 		for(String game : indoorGames){
 			System.out.println(game);
 		}
 	}
-}
+}  
+

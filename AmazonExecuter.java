@@ -1,4 +1,3 @@
-
 class AmazonExecuter{
 	public static void main(String args[]){
 		Amazon a = new Amazon();
@@ -45,6 +44,12 @@ class AmazonExecuter{
 		System.out.println(added);
 		added = a.addCategory("Movies");
 		System.out.println(added);
+
+		boolean updated = a.updateCategory("Books", "E-Books");
+		System.out.println(updated);
+
+		boolean deleted = a.deleteCategory("Toys");
+		System.out.println(deleted);
 
 		a.getCategories();
 	}

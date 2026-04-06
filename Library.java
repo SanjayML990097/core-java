@@ -13,10 +13,45 @@ class Library{
 		return isBookAdded;
 	}
 	
+	public boolean updateBook(String oldBook, String newBook){
+		boolean isUpdated = false;
+		if(oldBook != null && newBook != null){
+			for(int i=0; i<bookNames.length; i++){
+				if(oldBook.equals(bookNames[i])){
+					bookNames[i] = newBook;
+					isUpdated = true;
+					break;
+				}
+			}
+		}
+		if(!isUpdated){
+			System.out.println("book not found to update");
+		}
+		return isUpdated;
+	}
+	
+	public boolean deleteBook(String book){
+		boolean isDeleted = false;
+		if(book != null){
+			for(int i=0; i<bookNames.length; i++){
+				if(book.equals(bookNames[i])){
+					bookNames[i] = null;
+					isDeleted = true;
+					break;
+				}
+			}
+		}
+		if(!isDeleted){
+			System.out.println("book not found to delete");
+		}
+		return isDeleted;
+	}
+	
 	public void getBooks(){
 		System.out.println("the library books are :");
 		for(String book : bookNames){
 			System.out.println(book);
 		}
 	}
-}
+}  
+

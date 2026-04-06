@@ -1,4 +1,3 @@
-
 class IndianTestTeamExecuter{
 	public static void main(String args[]){
 		IndianTestTeam t = new IndianTestTeam();
@@ -25,6 +24,12 @@ class IndianTestTeamExecuter{
 		System.out.println(added);
 		added = t.addPlayer("Mohammed Siraj");
 		System.out.println(added);
+
+		boolean updated = t.updatePlayer("Virat Kohli", "King Kohli");
+		System.out.println(updated);
+
+		boolean deleted = t.deletePlayer("Ajinkya Rahane");
+		System.out.println(deleted);
 
 		t.getPlayers();
 	}

@@ -2,13 +2,13 @@ class IndiaExecuter{
 	public static void main(String args[]){
 		India i = new India();
 
-boolean added = i.addState("Andhra Pradesh");
+		boolean added = i.addState("Andhra Pradesh");
 		System.out.println(added);
 		added = i.addState("Arunachal Pradesh");
-	System.out.println(added);
-	added = i.addState("Assam");
 		System.out.println(added);
-	added = i.addState("Bihar");
+		added = i.addState("Assam");
+		System.out.println(added);
+		added = i.addState("Bihar");
 		System.out.println(added);
 		added = i.addState("Chhattisgarh");
 		System.out.println(added);
@@ -17,13 +17,13 @@ boolean added = i.addState("Andhra Pradesh");
 		added = i.addState("Gujarat");
 		System.out.println(added);
 		added = i.addState("Haryana");
-	System.out.println(added);
+		System.out.println(added);
 		added = i.addState("Himachal Pradesh");
 		System.out.println(added);
 		added = i.addState("Jharkhand");
 		System.out.println(added);
-	added = i.addState("Karnataka");
-	System.out.println(added);
+		added = i.addState("Karnataka");
+		System.out.println(added);
 		added = i.addState("Kerala");
 		System.out.println(added);
 		added = i.addState("Madhya Pradesh");
@@ -35,7 +35,7 @@ boolean added = i.addState("Andhra Pradesh");
 		added = i.addState("Meghalaya");
 		System.out.println(added);
 		added = i.addState("Mizoram");
-	System.out.println(added);
+		System.out.println(added);
 		added = i.addState("Nagaland");
 		System.out.println(added);
 		added = i.addState("Odisha");
@@ -44,7 +44,7 @@ boolean added = i.addState("Andhra Pradesh");
 		System.out.println(added);
 		added = i.addState("Rajasthan");
 		System.out.println(added);
-	added = i.addState("Sikkim");
+		added = i.addState("Sikkim");
 		System.out.println(added);
 		added = i.addState("Tamil Nadu");
 		System.out.println(added);
@@ -52,14 +52,20 @@ boolean added = i.addState("Andhra Pradesh");
 		System.out.println(added);
 		added = i.addState("Tripura");
 		System.out.println(added);
-	added = i.addState("Uttar Pradesh");
+		added = i.addState("Uttar Pradesh");
 		System.out.println(added);
 		added = i.addState("Uttarakhand");
-	System.out.println(added);
+		System.out.println(added);
 		added = i.addState("West Bengal");
-	System.out.println(added);
+		System.out.println(added);
 		added = i.addState("Delhi");
 		System.out.println(added);
+
+		boolean updated = i.updateState("Goa", "Goa State");
+		System.out.println(updated);
+
+		boolean deleted = i.deleteState("Bihar");
+		System.out.println(deleted);
 		
 		i.getStates();
 	}
