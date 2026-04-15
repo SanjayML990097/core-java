@@ -1,10 +1,7 @@
 class Product {
-
     int productId;
-    String productName;
-    String category;
+    String name;
     double price;
-    int quantity;
+    String category;
     String brand;
-
 }
