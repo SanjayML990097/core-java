@@ -1,0 +1,232 @@
+1] explain constructor chaining using this() keyword ?
+a constructor is a special type of method which is created as same as class name and do not have any return value and it was linked using this keyword 
+
+2]explain default values assigned to instance  variables in java with example ?
+the default values are built-in values which is given by java and instance variables are the variables used outside the method and not use static keyword
+eg:- class product{
+			int productId;
+			String productName;
+			}
+			
+	class ProductRunner{
+	public static void main(String args()){
+		Product p = new Poduct();
+		p.productId = 1;
+		p.productName = "shoe";
+		System.out.println(p.productId);
+		System.out.println(p.productName);
+		}
+		
+	
+		
+		
+ 4] write a program to demonstrate default constructor ?
+ class Account
+{
+	int accountId;
+	String firstName;
+	String surName;
+}
+class AccountRunner{
+	public static void main (String args[]){
+		Account a = new Account();
+		a.accountId=1;
+		a.firstName="sanjay";
+		a.surName="yadav"
+		
+		System.out.println(a.accountId);
+		System.out.println(a.firstName);
+		System.of.println(a.surName);
+		}
+		
+
+3]write a program to perform CRUD operations?
+class Website {
+    UserAccount users[] = new UserAccount[8];
+    int index;
+    public boolean addUser(UserAccount user) {
+        boolean isUserAdded = false;
+        boolean isIdValid = false;
+        boolean isUserNameValid = false;
+        boolean isEmailValid = false;
+        return isUserAdded;
+    }
+    public void getUsers() {
+for (UserAccount user : users) {
+            if (user != null) {
+                System.out.println("User Id: " + user.userId);
+                System.out.println("User Name: " + user.userName);
+                System.out.println("Email: " + user.email);       
+       }
+        }
+    }
+}
+class WebsiteRunner {
+
+    public static void main(String[] args) {
+        Website website = new Website();
+       
+	   UserAccount userOne = new UserAccount();
+        userOne.userId = 1;
+        userOne.userName = "Darshan";
+        userOne.email = "darshan@gmail.com";
+      
+        boolean isUserAdded = website.addUser(userOne);
+        System.out.println(isUserAdded);
+        UserAccount userTwo = new UserAccount();
+        userTwo.userId = 2;
+        userTwo.userName = "Ravi";
+        userTwo.email = "ravi@gmail.com";
+		
+        isUserAdded = website.addUser(userTwo);
+        System.out.println(isUserAdded);
+        
+        website.getUsers();
+    }
+}
+
+
+
+5]write a program using a parameterized constructor?
+ class product{
+			int productId;
+			String productName;
+			
+			public product(Product product){
+			
+			}
+			}
+			
+	class ProductRunner{
+	public static void main(String args()){
+		Product p = new Poduct(shoe);
+		System.out.println(p.productId);
+		System.out.println(p.productName);
+		}
+
+
+
+6]what is default constructor in java ?who provides it ?
+it is a special type of method which is created by same name as class name and does not have any return value
+and it is given by a java compiler
+
+
+7]can constructor have a return type ?why?
+no it does not have return type because it was created by same as class name and it does not return any value
+
+
+8]write a real world example program for has-a relationship concept?
+class IPL{
+	Season s1;
+	Season s2;
+	Season s3;
+	Season s4;
+	Season s5;
+	public void getIplDetails(){
+			s1.getSeasonDetails();
+			s2.getSeasonDetails();
+			s3.getSeasonDetails();
+			s4.getSeasonDetails();
+			s5.getSeasonDetails();
+			}
+}
+class IplExecuter{
+	public static void main(String[] tataIpl){
+		
+		IPL ipl = new IPL();
+		
+		Season seasonOne = new Season();
+		Season seasonTwo = new Season();
+		Season seasonThree = new Season();
+		Season seasonFour = new Season();
+		Season seasonFive = new Season();
+
+		Table t1 = new Table();
+		Table t2 = new Table();
+		Table t3 = new Table();
+		Table t4 = new Table();
+		Table t5 = new Table();
+
+		seasonOne.table = t1;
+		seasonTwo.table = t2;
+		seasonThree.table = t3;
+		seasonFour.table = t4;
+		seasonFive.table = t5;
+
+		// ----------- 2021 -----------
+		Team teamOne = new Team(); 
+		teamOne.teamName="DC";
+		teamOne.playedMatches=14;
+		teamOne.won=10;
+		teamOne.loss=4; 
+		teamOne.nrr=0.48;
+		t1.teams[0]=teamOne;
+		Team teamTwo = new Team();
+		teamTwo.teamName="CSK";
+		teamTwo.playedMatches=14;
+		teamTwo.won=9;
+		teamTwo.loss=5; 
+		teamTwo.nrr=0.45;
+		t1.teams[1]=teamTwo;
+		Team teamThree = new Team();
+		teamThree.teamName="RCB";
+		teamThree.playedMatches=14;
+		teamThree.won=9;
+		teamThree.loss=5;
+		teamThree.nrr=0.30; 
+		t1.teams[2]=teamThree;
+		Team teamFour = new Team();
+		teamFour.teamName="KKR"; 
+		teamFour.playedMatches=14;
+		teamFour.won=7; 
+		teamFour.loss=7;
+		teamFour.nrr=0.10;
+		t1.teams[3]=teamFour;
+		
+		Team teamFive = new Team();
+		teamFive.teamName="MI";
+		teamFive.playedMatches=14;
+		teamFive.won=7; 
+		teamFive.loss=7; 
+		teamFive.nrr=0.05;
+		t1.teams[4]=teamFive;
+		Team teamSix = new Team(); 
+		teamSix.teamName="PBKS";
+		teamSix.playedMatches=14;
+		teamSix.won=6; 
+		teamSix.loss=8;
+		teamSix.nrr=-0.20;
+		t1.teams[5]=teamSix;
+		Team teamSeven = new Team();
+		teamSeven.teamName="RR"; 
+		teamSeven.playedMatches=14;
+		teamSeven.won=5;
+		teamSeven.loss=9;
+		teamSeven.nrr=-0.35;
+		t1.teams[6]=teamSeven;
+		Team teamEight = new Team();
+		teamEight.teamName="SRH";
+		teamEight.playedMatches=14; 
+		teamEight.won=3;
+		teamEight.loss=11; 
+		teamEight.nrr=-0.50;
+		t1.teams[7]=teamEight;
+		Team teamNine = new Team();
+		teamNine.teamName="GT"; 
+		teamNine.playedMatches=14;
+		teamNine.won=8;
+		teamNine.loss=6; 
+		teamNine.nrr=0.25;
+		t1.teams[8]=teamNine;
+		Team teamTen = new Team();
+		teamTen.teamName="LSG"; 
+		teamTen.playedMatches=14;
+		teamTen.won=7;
+		teamTen.loss=7;
+		teamTen.nrr=0.15;
+		t1.teams[9]=teamTen;
+		
+		Ipl.getIplDetails();
+		
+		}
+		}
